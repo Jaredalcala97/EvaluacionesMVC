@@ -1,14 +1,18 @@
 ﻿@Code
     ViewData("Title") = "Home Page"
 End Code
+
+
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
-    <link href="Site.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluaciones</title>
+    <link href="~/Content/Index.css" rel="stylesheet" />
     <link href="index.js" rel="stylesheet" />
+    <link rel="manifest" href="/manifest.json">
 </head>
 <body>
     <article class="login">
@@ -27,8 +31,10 @@ End Code
             </div>
 
             <div class="button">
-                <button type="button" id="btnLogin"> Login </button>
-
+                <button type="button" id="btnLogin">
+                    <a href="@Url.Action("Sesion")">Login</a>
+                </button>
+               
             </div>
 
         </form>

@@ -1,0 +1,168 @@
+﻿
+{
+    box-sizing: border-box;
+}
+
+@keyframes rotate {
+    100% {
+        background-position: 20% 50%;
+    }
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh;
+    padding: 0 24px;
+    background-image: url("https://www.bjtonline.com/sites/bjtonline.com/files/aircraft/bombardier_global5000.jpg");
+    background-size: cover;
+    font-family: 'Meiryo UI', monospace;
+    color: #000;
+    animation: rotate 5s infinite alternate linear;
+}
+
+@media(width >= 500px) {
+    body {
+        padding: 0;
+    }
+}
+
+.login {
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 90%;
+    padding: 70px 30px 44px;
+    border-radius: 0;
+    background: #fff;
+    text-align: center;
+}
+
+@media (width >= 680px) {
+    .login {
+        top: 0;
+        right: auto;
+        left: 0;
+        translate: 0;
+        margin: 0;
+        height: 100%;
+        width: 25%;
+        border-radius: 0;
+        padding-top: 240px;
+    }
+}
+
+.login > img {
+    width: 80%;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+    
+
+.login > h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 30px;
+}
+
+.login > h3 {
+    color: rgb(0 0 0 / 38%);
+    margin: 0 0 6px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+.login-form {
+    display: flex;
+    grid-gap: 20px;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.username {
+    display: flex;
+    height: 56px;
+    width: 100%;
+    outline: none;
+    padding: 0;
+    font-family: inherit;
+    justify-content: center;
+}
+
+    .username > input {
+        text-align: center;
+        border-radius: 10px;
+        width: 350px;
+        background: #eeeeee;
+        border: 0;
+        padding: 0;
+        box-shadow: initial;
+        justify-content: center;
+        align-items: center;
+    }
+
+.password {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    height: 56px;
+    width: 100%;
+    outline: none;
+    padding: 0;
+    border-radius: 10px;
+    font-family: inherit;
+    justify-content: center;
+}
+
+    .password > input {
+        text-align: center;
+        border-radius: 10px;
+        width: 350px;
+        background: #eeeeee;
+        border: 0;
+        padding: 0;
+        box-shadow: initial;
+    }
+
+.button {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    height: 56px;
+    width: 100%;
+    outline: none;
+    padding: 0;
+    border-radius: 10px;
+    font-family: inherit;
+    justify-content: center;
+}
+
+    .button > button {
+        text-align: center;
+        border-radius: 10px;
+        width: 300px;
+        cursor: pointer;
+        height: 56px;
+        background: #f69653;
+        color: #f9f9f9;
+        border: 10px;
+        letter-spacing: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .button > button:hover {
+            background: #f38654;
+        }
+
