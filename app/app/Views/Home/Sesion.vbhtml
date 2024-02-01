@@ -58,13 +58,14 @@ End Code
                     </button>
                 </div>
                 <div class="profile-links">
-                    <a href="#" class="link link--icon">
+                    <a href=@Url.Action("Afirmar")
+                       class="link link--icon">
                         <i class="ph-revisar-btn">Por Firmar</i>
                     </a>
-                    <a href="#" class="link link--icon">
+                    <a href=@Url.Action("Afirmar") class="link link--icon">
                         <i class="ph-empezar-btn">Por Realizar</i>
                     </a>
-                    <a href="#" class="link link--icon">
+                    <a href=@Url.Action("Afirmar") class="link link--icon">
                         <i class="ph-finalizadas-btn">Finalizadas</i>
                     </a>
 
