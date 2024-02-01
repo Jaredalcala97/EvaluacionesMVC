@@ -184,7 +184,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Menu.css" />
+    <Content Include="Content\popup.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\pupop.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
