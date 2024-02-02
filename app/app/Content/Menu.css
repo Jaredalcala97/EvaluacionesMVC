@@ -51,8 +51,18 @@ nav {
     }
 
         nav ul li {
-            margin-left: 30px;
+            display: flex;
+            font-size: small;
+            margin-right: 30px;
         }
+
+            nav ul li i {
+                font-size: x-large;
+                margin-left: 10px;
+            }
+
+
+}
 
 
 /* pruebas perfil de usuario */
@@ -64,6 +74,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction:column;
 }
 button,input,select,textarea{
     font:inherit;
@@ -71,23 +82,24 @@ button,input,select,textarea{
 a{
     color:inherit;
 }
-.profile{
-    display:flex;
-    align-items:center;
-    flex-direction:column;
-    padding:3rem;
-    width:90%;
-    max-width:300px;
-    background-color:#1b2028;
-    border-radius:16px;
-    position:relative;
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    width: 90%;
+    max-width: 300px;
+    margin: auto; /* Center the box horizontally */
+    background-color: #1b2028;
+    border-radius: 16px;
+    position: relative;
     border: 3px solid transparent;
     background-clip: padding-box;
-    text-align:center;
+    text-align: center;
     color: #f1f3f3;
-    background-image: linear-gradient(135deg, rgba(117,46,124, 0.35),rgba(115,74,88,0.1) 15%, #1b2028 20%, #1b2028 100%);
+    background-image: linear-gradient(135deg, rgba(117, 46, 124, 0.35), rgba(115, 74, 88, 0.1) 15%, #1b2028 20%, #1b2028 100%);
 }
-
 .profile::after{
     content:"";
     display:block;
@@ -135,33 +147,12 @@ a{
 .profile-options > *{
     margin:0 0.25rem;
 }
-.btn {
-    border: 0;
-    background-color: transparent;
-    padding: 0;
-    height: 46px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor:pointer;
-    line-height:1;
-    transition: 0.15s ease;
+
+.profile-links {
+    text-decoration: none;
+    font-family: Consolas;
 }
 
-.btn--primary{
-    border-radius:99em;
-    background-color:#3772ff;
-    background-image:linear-gradient(135deg, #5587ff, #3772ff);
-    color:#fff;
-    padding:0 1.375em;
-}
-.btn--primary:hover, .btn--primary:focus{
-    background-size:150%;
-}
-.btn--icon{
-    height:46px;
-    width:46px;
-    border-radius:50%;
-    border:3px solid #343945;
-    color:#7d8396;
-}
+    .profile-links :hover {
+        text-decoration: none;
+    }

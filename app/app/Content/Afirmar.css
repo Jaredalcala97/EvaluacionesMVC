@@ -17,7 +17,7 @@ nav {
     top: 0;
     left: 0;
     display: flex;
-    background: rgb(255, 106, 0, 0.0);
+    
     width: 100%;
     height: auto;
     justify-content: space-between; /* Espacio entre la imagen y las opciones del menú */
@@ -42,6 +42,7 @@ nav ul {
         display: flex;
         font-size: small;
         margin-right: 30px;
+        color:#000;
     }
 
         nav ul li i {
@@ -49,13 +50,28 @@ nav ul {
             margin-left: 10px;
         }
 
+/*estios de titulos*/
+
+.titulo h2 {
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+    
+
+ 
+
+        
+}
+
 /* ESTILOS DE LA TABLA  */
 
 
 
 table {
-    margin-top: 300px;
-    
+    margin-top: 60px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -65,19 +81,19 @@ table {
     border: 3px solid transparent;
     background-clip: padding-box;
     text-align: center;
-    text-justify:initial;
+    text-justify: initial;
     color: #000;
-    
 }
 
 
 table, th, td {
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
-th{
-    justify-content:center;
-    align-items:center;
+
+th {
+    justify-content: center;
+    align-items: center;
 }
 
 table {

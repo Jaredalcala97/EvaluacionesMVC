@@ -17,18 +17,18 @@ End Code
         <img src="~/images/logo.png" alt="Alternate Text" />
         <ul>
             <li>
-                <a href="@Url.Action("About", "Home")">
-                    <i class="bi bg-info">info</i>
+                <a href="@Url.Action("Info", "Home")">
+                    <i class="bi bi-info-circle-fill info"></i>
                 </a>
             </li>
             <li>
                 <a href="@Url.Content("Sesion")">
-                    <i class="bi bi-house-fill">home</i>
+                    <i class="bi bi-house-door-fill home"></i>
                 </a>
             </li>
             <li>
                 <a href="@Url.Action("Index", "Home")">
-                    <i class="bi bi-info-circle">logout</i>
+                    <i class="bi bi-box-arrow-right logout"></i>
                 </a>
             </li>
         </ul>
@@ -43,29 +43,16 @@ End Code
             </div>
                 <h2 class="Profile-username">Jared Alcalá</h2>
                 <small class="profile-user-rol">practicante</small>
-                <div class="profile-options">
-
-                    <button class="btn btn--primary"> Firmar </button>
-                    <button class="btn btn--icon">
-
-                        <i class="ph-export"></i>
-
-                    </button>
-                    <button class="btn btn--icon">
-
-                        <i class="ph-dots-three-outline-fill"></i>
-
-                    </button>
-                </div>
+                
                 <div class="profile-links">
                     <a href=@Url.Action("Afirmar")
-                       class="link link--icon">
+                       class="link1">
                         <i class="ph-revisar-btn">Por Firmar</i>
                     </a>
-                    <a href=@Url.Action("Afirmar") class="link link--icon">
+                    <a href=@Url.Action("Afirmar") class="link2">
                         <i class="ph-empezar-btn">Por Realizar</i>
                     </a>
-                    <a href=@Url.Action("Afirmar") class="link link--icon">
+                    <a href=@Url.Action("Afirmar") class="link3">
                         <i class="ph-finalizadas-btn">Finalizadas</i>
                     </a>
 
