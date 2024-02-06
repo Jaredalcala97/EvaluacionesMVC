@@ -179,6 +179,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Consulta.css" />
+    <Content Include="Content\Nuevas.css" />
     <Content Include="Content\Afirmar.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -218,6 +220,9 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <Content Include="Views\Home\Afirmar.vbhtml" />
+    <Content Include="Views\Home\Nuevas.vbhtml" />
+    <Content Include="Views\Home\Consulta.vbhtml" />
+    <Content Include="Views\Home\Evaluacion.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

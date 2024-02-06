@@ -10,8 +10,15 @@
     Function Index() As ActionResult
         Return View()
     End Function
-
-
+    Function Nuevas() As ActionResult
+        Return View()
+    End Function
+    Function Consulta() As ActionResult
+        Return View()
+    End Function
+    Function Evaluacion() As ActionResult
+        Return View()
+    End Function
     Function Sesion() As ActionResult
         Return View()
     End Function
