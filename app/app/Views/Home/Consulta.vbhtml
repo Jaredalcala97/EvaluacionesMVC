@@ -40,11 +40,12 @@ End Code
     </div>
     <div class="Tabla">
         <table style="width:100%">
-            <tr>
+            <tr class="titulos" style="justify-content:center; align-items:center; margin-left:auto;">
                 <th>NOMBRE</th>
                 <th>PUESTO</th>
                 <th>FECHA DE INGRESO</th>
                 <th>CALIFICACION</th>
+                <th>SIGUIENTE EVALUACION</th>
                 <th>STATUS</th>
             </tr>
             <tr>
@@ -52,6 +53,7 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-06-2024</td>
                 <td>Aprobado</td>
             </tr>
             <tr>
@@ -59,6 +61,7 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-06-2024</td>
                 <td>Aprobado</td>
             </tr>
             <tr>
@@ -66,6 +69,7 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-06-2024</td>
                 <td>Aprobado</td>
             </tr>
             <tr>
@@ -73,6 +77,7 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-06-2024</td>
                 <td>Aprobado</td>
             </tr>
             <tr>
@@ -80,9 +85,12 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-06-2024</td>
                 <td>Aprobado</td>
             </tr>
         </table>
     </div>
+   
 </body>
+
 </html>

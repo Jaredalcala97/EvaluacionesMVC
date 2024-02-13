@@ -86,7 +86,7 @@ End Code
         <div id="InfoUser" class="overlay">
             <div id="popupBody">
                 <a id="cerrar" href="#">&times;</a>
-                <table style="width:100%">
+                <table style="width:100%; background-color:cornflowerblue">
                     <tr>
                         <th></th>
                         <th>N1</th>
@@ -104,6 +104,111 @@ End Code
                         <th>24 months / 2 year</th>
                         <th>36 months / 3 year</th>
                     </tr>
+                    <tr>
+                        <th>TECNICO DE LA INTEGRIDAD DE LA PLANEACIÓN MAESTRA</th>
+                        <th>
+                            "Realizar nesteos
+                            Generar e imprimir ordenes de producción
+                            Generar split (s)
+                            Conciliar scrap
+                            Revisión y modificación de PDLV y STO parciales
+                            Emitir el shopload y dar seguimiento."
+
+                        </th>
+                        <th>
+                            "Realizar nesteos
+                            Generar e imprimir ordenes de producción
+                            Generar split (s)
+                            Conciliar scrap
+                            Revisión y modificación de PDLV y STO parciales
+                            Emitir el shopload y dar seguimiento."
+                        </th>
+                        <th>
+                            "Planeación detallada
+                            Reservaciones
+                            Cambio en tamaño de lotes
+                            MRP overview
+                            Conversión de ordenes planeadas firmes"
+
+                        </th>
+                        <th>
+                            "MPS (Master Production Schedule).
+                            CRP (Capacity Requirements Planning)
+                            Notificaciones de cambio en IMP de proyectos"
+                        </th>
+                        <th>
+                            "MPS (Master Production Schedule).
+                            CRP (Capacity Requirements Planning)
+                            Notificaciones de cambio en IMP de proyectos"
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Ausentismo
+                        </th>
+                        <th>
+                            0
+
+                        </th>
+                        <th>
+                            0
+                        </th>
+                        <th>
+                            0
+                        </th>
+                        <th>
+                            0
+                        </th>
+                        <th>
+                            0
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <th>
+                            Disciplina
+                        </th>
+                        <th>
+                            0
+
+                        </th>
+                        <th>
+                            0
+                        </th>
+                        <th>
+                            0
+                        </th>
+                        <th>
+                            0
+                        </th>
+                        <th>
+                            0
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            SCRAP
+
+                        </th>
+                        <th>
+                            0
+
+                        </th>
+                        <th>
+                            0
+                        </th>
+                        <th>
+                            0
+                        </th>
+                        <th>
+                            0
+                        </th>
+                        <th>
+                            0
+                        </th>
+                    </tr>
+                    
+                    
                 </table>
                 <a href=@Url.Action("Nuevas")>OK</a>
             </div>
