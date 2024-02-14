@@ -86,8 +86,8 @@ End Code
         <div id="InfoUser" class="overlay">
             <div id="popupBody">
                 <a id="cerrar" href="#">&times;</a>
-                <table style="width:100%; background-color:cornflowerblue">
-                    <tr>
+                <table class="NuevoPopup" style="width:100%; position:initial; background-color:cornflowerblue; overflow-y:scroll; overflow-x: scroll;">
+                    <tr class="titulos">
                         <th></th>
                         <th>N1</th>
                         <th>N2</th>
@@ -96,7 +96,7 @@ End Code
                         <th>N5</th>
 
                     </tr>
-                    <tr>
+                    <tr class="titulo2">
                         <th>INITIAL</th>
                         <th>3 months</th>
                         <th>6 months</th>
@@ -104,7 +104,7 @@ End Code
                         <th>24 months / 2 year</th>
                         <th>36 months / 3 year</th>
                     </tr>
-                    <tr>
+                    <tr class="campos">
                         <th>TECNICO DE LA INTEGRIDAD DE LA PLANEACIÓN MAESTRA</th>
                         <th>
                             "Realizar nesteos
@@ -142,7 +142,7 @@ End Code
                             Notificaciones de cambio en IMP de proyectos"
                         </th>
                     </tr>
-                    <tr>
+                    <tr class="calificable1">
                         <th>
                             Ausentismo
                         </th>
@@ -164,7 +164,7 @@ End Code
                         </th>
                     </tr>
 
-                    <tr>
+                    <tr class="calificable2">
                         <th>
                             Disciplina
                         </th>
@@ -185,7 +185,7 @@ End Code
                             0
                         </th>
                     </tr>
-                    <tr>
+                    <tr class="calificable3">
                         <th>
                             SCRAP
 

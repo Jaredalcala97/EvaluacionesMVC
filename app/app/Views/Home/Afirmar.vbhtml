@@ -11,7 +11,9 @@ End Code
     <link href="~/Content/Afirmar.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="~/Content/popup.css" rel="stylesheet" type="text/css" />
+
 </head>
+
 <body>
     <nav>
         <img src="~/images/logo.png" alt="Alternate Text" />

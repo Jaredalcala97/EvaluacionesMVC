@@ -17,12 +17,13 @@ nav {
     top: 0;
     left: 0;
     display: flex;
-    
+    background: transparent;
     width: 100%;
     height: auto;
     justify-content: space-between; /* Espacio entre la imagen y las opciones del menú */
     align-items: center; /* Alinea verticalmente los elementos del nav */
     padding: 10px; /* Añade un relleno para mayor espacio */
+
 }
 
 nav img {
@@ -107,3 +108,8 @@ th, td {
     border: 1px solid #ddd; /* Agrega un borde para mayor claridad */
     text-align: left;
 }
+
+
+/* parte 2 de tabla*/
+
+

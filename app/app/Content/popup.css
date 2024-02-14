@@ -1,7 +1,13 @@
 ﻿body {
 }
-.overlay {
+
+#InfoUser{
+    scrollbar-arrow-color: blue;
     position: fixed;
+    width: auto;
+} 
+.overlay {
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -17,14 +23,15 @@
     }
 
 #popupBody {
-    width: 46%;
+    width: 10%;
     padding: 2%;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 0 5px #CCC;
     background: #FFF;
     position: relative;
     margin: 20% auto;
     transition: all 5s ease-in-out;
+   
 }
 
 #cerrar {
@@ -32,7 +39,7 @@
     top: 20px;
     right: 30px;
     font-size: 30px;
-    fotn-weight: bold;
+    font-weight: bold;
     text-decoration: none;
     color: #F00;
     transition: all 200ms;
