@@ -46,6 +46,7 @@ End Code
             <small class="profile-user-rol">practicante</small>
 
             <div class="profile-links">
+
                 <a href=@Url.Action("Afirmar")
                    class="link1">
                     <i class="ph-revisar-btn">Por Firmar</i>

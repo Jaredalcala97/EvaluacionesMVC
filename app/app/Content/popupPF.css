@@ -1,0 +1,107 @@
+﻿body {
+}
+.NuevoPopup {
+    width: 80%;
+    overflow-x: auto;/* Permitir el desplazamiento horizontal si la tabla es más ancha que el contenedor */
+    max-height: 69vh; /* Altura máxima del popup, ajustada al 80% del alto de la ventana */
+    margin-bottom:20px;
+    overflow-y: auto; /* Habilitar desplazamiento vertical si es necesario */
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+    scroll-padding: 40px;
+}
+
+.titulos h3,
+.titulos h4 {
+    text-align: center; /* Alinear texto al centro */
+}
+
+#InfoUser {
+    scrollbar-arrow-color: blue;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%; /* Utilizar el 100% del ancho disponible */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999; /* Asegurar que la capa overlay esté sobre el resto del contenido */
+}
+
+    .overlay:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+#popupBody {
+    width: 90%; /* Utilizar el 80% del ancho disponible */
+    height: 50%;
+   
+    max-width: 900px; /* Establecer un ancho máximo */
+    padding: 2%;
+    margin:99px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #CCC;
+    background: #FFF;
+    position: relative;
+    margin: 10% auto;
+    transition: all 5s ease-in-out;
+}
+
+#cerrar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F00;
+    transition: all 200ms;
+}
+
+
+/*seccion de la tabla del popup*/
+
+
+.NuevoPopup {
+    height:100%;
+}
+
+.NuevoPopup th,
+.NuevoPopup td {
+    padding: 8px; /* Añadir espacio entre el contenido de las celdas y los bordes */
+    margin: 5px 0px; /* Añadir un margen entre cada párrafo para separarlos */
+}
+
+
+
+/* Estilos para las celdas de la tabla */
+
+.NuevoPopup td {
+    border-bottom: 1px solid #ddd; /* Agregar bordes inferiores a las celdas */
+}
+
+/* Ajustar el tamaño de la tabla en dispositivos móviles */
+@media screen and (max-width: 600px) {
+    .NuevoPopup {
+        width: 100%; /* Utilizar todo el ancho disponible */
+        height: auto;
+        overflow-x: auto; /* Permitir el desplazamiento horizontal si la tabla es más ancha que el contenedor */
+    }
+
+        .NuevoPopup th,
+        .NuevoPopup td {
+            width: auto; /* Permitir que las columnas se ajusten automáticamente */
+        }
+}

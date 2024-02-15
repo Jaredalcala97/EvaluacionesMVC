@@ -10,7 +10,7 @@ End Code
     <title></title>
     <link href="~/Content/Consulta.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="~/Content/popup.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/popupPF.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <nav>
@@ -86,8 +86,14 @@ End Code
         <div id="InfoUser" class="overlay">
             <div id="popupBody">
                 <a id="cerrar" href="#">&times;</a>
+                <div class="titulos">
+                    <h3>
+                        HABILIDADES TÉCNICAS POR ÁREA
+                    </h3>
+                    <h4>Seleccione la opción que corresponda en relación al dominio de la actividad del puesto</h4>
+                </div>
                 <table class="NuevoPopup" style="width:100%; position:initial; background-color:cornflowerblue; overflow-y:scroll; overflow-x: scroll;">
-                    <tr class="titulos">
+                    <tr class="titulo1">
                         <th></th>
                         <th>N1</th>
                         <th>N2</th>

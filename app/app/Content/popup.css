@@ -1,13 +1,17 @@
 ﻿body {
 }
 
-#InfoUser{
+#InfoUser {
     scrollbar-arrow-color: blue;
     position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     width: auto;
 } 
 .overlay {
-    position: relative;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -23,13 +27,13 @@
     }
 
 #popupBody {
-    width: 10%;
+    width: 80%;
     padding: 2%;
     border-radius: 10px;
     box-shadow: 0 0 5px #CCC;
     background: #FFF;
     position: relative;
-    margin: 20% auto;
+    margin: 25% auto;
     transition: all 5s ease-in-out;
    
 }
