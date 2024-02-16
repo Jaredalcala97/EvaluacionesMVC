@@ -46,7 +46,7 @@
 
 #popupBody {
     width: 90%; /* Utilizar el 80% del ancho disponible */
-    height: 50%;
+    height: 90%;
    
     max-width: 900px; /* Establecer un ancho máximo */
     padding: 2%;
