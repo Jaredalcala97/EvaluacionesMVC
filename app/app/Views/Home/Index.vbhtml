@@ -32,7 +32,7 @@ End Code
 
             <div class="button">
                 <button type="button" id="btnLogin">
-                    <a href="@Url.Action("Sesion")">Login</a>
+                    <a href="@Url.Action("Botones")">Login</a>
                 </button>
                
             </div>

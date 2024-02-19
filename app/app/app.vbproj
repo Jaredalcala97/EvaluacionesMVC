@@ -179,7 +179,11 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Firmas.css" />
+    <Content Include="Content\popupF.css" />
+    <Content Include="Content\Status.css" />
     <Content Include="Content\Consulta.css" />
+    <Content Include="Content\MenuAdmin.css" />
     <Content Include="Content\Nuevas.css" />
     <Content Include="Content\Afirmar.css" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -224,6 +228,10 @@
     <Content Include="Views\Home\Nuevas.vbhtml" />
     <Content Include="Views\Home\Consulta.vbhtml" />
     <Content Include="Views\Home\Evaluacion.vbhtml" />
+    <Content Include="Views\Home\SesionAdmin.vbhtml" />
+    <Content Include="Views\Home\Botones.vbhtml" />
+    <Content Include="Views\Home\Status.vbhtml" />
+    <Content Include="Views\Home\Firmas.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

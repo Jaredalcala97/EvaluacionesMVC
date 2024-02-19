@@ -59,7 +59,7 @@ End Code
                 <td> <a href="#popup">FIRMAR</a></td>
             </tr>
             <tr>
-                <td>Alfredo Bustillo</td>
+                <td>luis Lopez</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
@@ -67,7 +67,7 @@ End Code
                 <td> <a href="#popup">FIRMAR</a></td>
             </tr>
             <tr>
-                <td>Alfredo Bustillo</td>
+                <td>Carlos garcia</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
@@ -75,7 +75,7 @@ End Code
                 <td> <a href="#popup">FIRMAR</a></td>
             </tr>
             <tr>
-                <td>Alfredo Bustillo</td>
+                <td>Jose Vasconcelos</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
@@ -83,7 +83,7 @@ End Code
                 <td> <a href="#popup">FIRMAR</a></td>
             </tr>
             <tr>
-                <td>Alfredo Bustillo</td>
+                <td>Bernado Solis</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>

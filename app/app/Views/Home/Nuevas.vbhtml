@@ -48,7 +48,7 @@ End Code
 
             </tr>
             <tr>
-                <td><a href="#InfoUser">Alfredo Bustillo</a></td>
+                <td><a href="#InfoUser">Carlos Herrera</a></td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
@@ -62,21 +62,21 @@ End Code
                 <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>
             </tr>
             <tr>
-                <td><a href="#InfoUser">Alfredo Bustillo</a></td>
+                <td><a href="#InfoUser">Vicente Herrera</a></td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
                 <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>
             </tr>
             <tr>
-                <td><a href="#InfoUser">Alfredo Bustillo</a></td>
+                <td><a href="#InfoUser">Luis Capetillo</a></td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
                 <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>
             </tr>
             <tr>
-                <td><a href="#InfoUser">Alfredo Bustillo</a></td>
+                <td><a href="#InfoUser">Fernando Alonzo</a></td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
@@ -122,7 +122,7 @@ End Code
 
                         </th>
                         <th>
-                            "Realizar nesteos
+                            "Realizar nesteos 
                             Generar e imprimir ordenes de producción
                             Generar split (s)
                             Conciliar scrap

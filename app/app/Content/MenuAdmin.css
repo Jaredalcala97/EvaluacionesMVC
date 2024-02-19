@@ -1,10 +1,7 @@
-﻿
-
-
-body {
+﻿body {
     background-color: #cccccc;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 1200'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='100%25' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23cccccc'/%3E%3Cstop offset='0.02' stop-color='%23cccccc'/%3E%3Cstop offset='0.02' stop-color='%23cecece'/%3E%3Cstop offset='0.032' stop-color='%23cccccc'/%3E%3Cstop offset='0.032' stop-color='%23cdcdcd'/%3E%3Cstop offset='0.056' stop-color='%23cccccc'/%3E%3Cstop offset='0.056' stop-color='%23cbcbcb'/%3E%3Cstop offset='0.07' stop-color='%23cccccc'/%3E%3Cstop offset='0.07' stop-color='%23cbcbcb'/%3E%3Cstop offset='0.1' stop-color='%23cccccc'/%3E%3Cstop offset='0.1' stop-color='%23cacaca'/%3E%3Cstop offset='0.126' stop-color='%23cccccc'/%3E%3Cstop offset='0.126' stop-color='%23cdcdcd'/%3E%3Cstop offset='0.142' stop-color='%23cccccc'/%3E%3Cstop offset='0.142' stop-color='%23cccccc'/%3E%3Cstop offset='0.159' stop-color='%23cccccc'/%3E%3Cstop offset='0.159' stop-color='%23c9c9c9'/%3E%3Cstop offset='0.17' stop-color='%23cccccc'/%3E%3Cstop offset='0.17' stop-color='%23cccccc'/%3E%3Cstop offset='0.197' stop-color='%23cccccc'/%3E%3Cstop offset='0.197' stop-color='%23c8c8c8'/%3E%3Cstop offset='0.218' stop-color='%23cccccc'/%3E%3Cstop offset='0.218' stop-color='%23cbcbcb'/%3E%3Cstop offset='0.239' stop-color='%23cccccc'/%3E%3Cstop offset='0.239' stop-color='%23cdcdcd'/%3E%3Cstop offset='0.254' stop-color='%23cccccc'/%3E%3Cstop offset='0.254' stop-color='%23cdcdcd'/%3E%3Cstop offset='0.283' stop-color='%23cccccc'/%3E%3Cstop offset='0.283' stop-color='%23cacaca'/%3E%3Cstop offset='0.294' stop-color='%23cccccc'/%3E%3Cstop offset='0.294' stop-color='%23cbcbcb'/%3E%3Cstop offset='0.305' stop-color='%23cccccc'/%3E%3Cstop offset='0.305' stop-color='%23cccccc'/%3E%3Cstop offset='0.332' stop-color='%23cccccc'/%3E%3Cstop offset='0.332' stop-color='%23cccccc'/%3E%3Cstop offset='0.346' stop-color='%23cccccc'/%3E%3Cstop offset='0.346' stop-color='%23cccccc'/%3E%3Cstop offset='0.362' stop-color='%23cccccc'/%3E%3Cstop offset='0.362' stop-color='%23cecece'/%3E%3Cstop offset='0.381' stop-color='%23cccccc'/%3E%3Cstop offset='0.381' stop-color='%23cecece'/%3E%3Cstop offset='0.415' stop-color='%23cccccc'/%3E%3Cstop offset='0.415' stop-color='%23cacaca'/%3E%3Cstop offset='0.428' stop-color='%23cccccc'/%3E%3Cstop offset='0.428' stop-color='%23cdcdcd'/%3E%3Cstop offset='0.442' stop-color='%23cccccc'/%3E%3Cstop offset='0.442' stop-color='%23c9c9c9'/%3E%3Cstop offset='0.456' stop-color='%23cccccc'/%3E%3Cstop offset='0.456' stop-color='%23cccccc'/%3E%3Cstop offset='0.498' stop-color='%23cccccc'/%3E%3Cstop offset='0.498' stop-color='%23cfcfcf'/%3E%3Cstop offset='0.511' stop-color='%23cccccc'/%3E%3Cstop offset='0.511' stop-color='%23c8c8c8'/%3E%3Cstop offset='0.532' stop-color='%23cccccc'/%3E%3Cstop offset='0.532' stop-color='%23c9c9c9'/%3E%3Cstop offset='0.541' stop-color='%23cccccc'/%3E%3Cstop offset='0.541' stop-color='%23cccccc'/%3E%3Cstop offset='0.56' stop-color='%23cccccc'/%3E%3Cstop offset='0.56' stop-color='%23cbcbcb'/%3E%3Cstop offset='0.581' stop-color='%23cccccc'/%3E%3Cstop offset='0.581' stop-color='%23cecece'/%3E%3Cstop offset='0.6' stop-color='%23cccccc'/%3E%3Cstop offset='0.6' stop-color='%23cdcdcd'/%3E%3Cstop offset='0.618' stop-color='%23cccccc'/%3E%3Cstop offset='0.618' stop-color='%23cccccc'/%3E%3Cstop offset='0.656' stop-color='%23cccccc'/%3E%3Cstop offset='0.656' stop-color='%23c7c7c7'/%3E%3Cstop offset='0.679' stop-color='%23cccccc'/%3E%3Cstop offset='0.679' stop-color='%23cbcbcb'/%3E%3Cstop offset='0.689' stop-color='%23cccccc'/%3E%3Cstop offset='0.689' stop-color='%23cdcdcd'/%3E%3Cstop offset='0.720' stop-color='%23cccccc'/%3E%3Cstop offset='0.720' stop-color='%23cdcdcd'/%3E%3Cstop offset='0.734' stop-color='%23cccccc'/%3E%3Cstop offset='0.734' stop-color='%23cccccc'/%3E%3Cstop offset='0.748' stop-color='%23cccccc'/%3E%3Cstop offset='0.748' stop-color='%23c7c7c7'/%3E%3Cstop offset='0.764' stop-color='%23cccccc'/%3E%3Cstop offset='0.764' stop-color='%23cacaca'/%3E%3Cstop offset='0.788' stop-color='%23cccccc'/%3E%3Cstop offset='0.788' stop-color='%23cbcbcb'/%3E%3Cstop offset='0.808' stop-color='%23cccccc'/%3E%3Cstop offset='0.808' stop-color='%23cdcdcd'/%3E%3Cstop offset='0.831' stop-color='%23cccccc'/%3E%3Cstop offset='0.831' stop-color='%23cdcdcd'/%3E%3Cstop offset='0.856' stop-color='%23cccccc'/%3E%3Cstop offset='0.856' stop-color='%23cecece'/%3E%3Cstop offset='0.872' stop-color='%23cccccc'/%3E%3Cstop offset='0.872' stop-color='%23c7c7c7'/%3E%3Cstop offset='0.894' stop-color='%23cccccc'/%3E%3Cstop offset='0.894' stop-color='%23cccccc'/%3E%3Cstop offset='0.914' stop-color='%23cccccc'/%3E%3Cstop offset='0.914' stop-color='%23cecece'/%3E%3Cstop offset='0.942' stop-color='%23cccccc'/%3E%3Cstop offset='0.942' stop-color='%23cccccc'/%3E%3Cstop offset='0.957' stop-color='%23cccccc'/%3E%3Cstop offset='0.957' stop-color='%23cccccc'/%3E%3Cstop offset='0.973' stop-color='%23cccccc'/%3E%3Cstop offset='0.973' stop-color='%23cdcdcd'/%3E%3Cstop offset='1' stop-color='%23cccccc'/%3E%3Cstop offset='1' stop-color='%23c9c9c9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' x='0' y='0' width='100%25' height='100%25'/%3E%3C/svg%3E");
-    margin: 0;
+    margin: 0 30px;
     padding: 0;
     min-height: 100vh; /* Cambiado a min-height para asegurar que al menos ocupe toda la altura de la ventana */
     background-size: cover;
@@ -13,191 +10,42 @@ body {
     animation: rotate 5s infinite alternate linear;
     /* Ajustes para hacer el body más responsivo */
     max-width: 100%; /* El cuerpo no será más ancho que el tamaño de la ventana */
-    margin: 0 auto; /* Centra el cuerpo en la ventana */
+    
    
 }
 
-.message {
+.titulo_sesion {
+    margin-top: 300px;
     display: flex;
-    margin-top: 100px; /* Ajusta el margen superior según tus necesidades */
-    padding: 0;
+    text-decoration: solid;
     align-items: center;
     justify-content: center;
 }
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
+
+.Botones_sesion {
+    margin-top: 300px;
     display: flex;
-    background: rgb(255, 106, 0, 0.0);
-    width: 100%;
-    height: auto;
-    justify-content: space-between; /* Espacio entre la imagen y las opciones del menú */
-    align-items: center; /* Alinea verticalmente los elementos del nav */
-    padding: 10px; /* Añade un relleno para mayor espacio */
-}
-
-    nav img {
-        width: auto;
-        height: 6vh;
-    }
-
-    nav ul {
-        display: flex;
-        align-items: center;
-        list-style: none; /* Elimina los estilos de lista predeterminados */
-        margin: 0;
-        padding: 0;
-    }
-
-        nav ul li {
-            display: flex;
-            font-size: small;
-            margin-right: 30px;
-        }
-
-            nav ul li i {
-                font-size: x-large;
-                margin-left: 10px;
-            }
-
-
-.message{
-    justify-content:center;
-    align-items:center;
-}
-
-/* pruebas perfil de usuario */
-
-.profile-body {
-
-    top:20%;
-    font-family: Consolas;
-    line-height: 1.5;
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction:column;
-}
-button,input,select,textarea{
-    font:inherit;
-}
-a{
-    color:inherit;
-}
-
-.profile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 10rem;
-    width: 120%;
-    max-width: 9000px;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: rgb(24,22,23);
-    border-radius: 16px;
-    position: relative;
-    border: 3px solid transparent;
-    background-clip: padding-box;
-    text-align: center;
-    color: #f1f3f3;
-    background-image: linear-gradient(90deg, rgba(24,22,23,1) 0%, rgba(41,123,221,1) 100%);
-}
-    .profile::after {
-        content: "";
-        display: block;
-        top: -3px;
-        left: -3px;
-        bottom: -3px;
-        right: -3px;
-        z-index: -1;
-        position: absolute;
-        border-radius: 16px;
-        background-image: linear-gradient(90deg, rgba(24,22,23,1) 0%, rgba(41,123,221,1) 100%);
-    }
-.profile-image {
-    border-radius: 50%;
-    overflow: hidden;
-    width: 375px;
-    height: 375px;
-    position: relative;
-}
-    .profile-image img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        width: 100%;
-    }
-
-.Profile-username{
-    font-size:5rem;
-    font-weight: 900;
-    margin-top:1.5rem;
-}
-.profile-user-rol {
-    font-size: 3rem;
-    color: #7d8396;
-    text-decoration: wavy;
-}
-
-.profile-options{
-    margin-top:3rem;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-.profile-options > *{
-    margin:0 0.25rem;
-}
-
-.profile-links {
-    justify-content:space-between;
+    justify-content: space-between;
     font-size: 30px;
     margin-top: 1rem;
     text-decoration: solid;
     font-family: Helvetica, sans-serif;
-
+    align-items: center;
+    justify-content: center;
 }
-    .profile-links .link1 {
+
+    .Botones_sesion .boton1, .boton2 {
+        color: #000000;
+        align-content: center;
         margin-right: 19px;
-        background-color: darkslategray;
+        background-color: #808080;
         border-radius: 10px;
         align-items: center;
         justify-content: center;
-        padding: 10px 20px;
-    }
-    .profile-links .link2 {
-        margin-right: 19px;
-        background-color: darkslategray;
-        border-radius: 10px;
-        align-items: center;
-        justify-content: center;
-        padding: 10px 20px;
-    }
-    .profile-links .link3 {
-        background-color: darkslategray;
-        border-radius: 10px;
-        align-items: center;
-        justify-content: center;
-        padding: 10px 20px;
+        padding: 20px 40px;
     }
 
-    .profile-links .link1:hover {
-        color: #000000;
-        text-decoration: #000;
-    }
-    .profile-links .link2:hover {
-        color: #000000;
-        text-decoration: #000;
-    }
-    .profile-links .link3:hover {
-        color: #000000;
-        text-decoration: #000;
-    }
+        .Botones_sesion .boton1:hover, .boton2:hover {
+            color: #f1f3f3;
+            text-decoration: #000;
+        }

@@ -22,7 +22,7 @@ End Code
                 </a>
             </li>
             <li>
-                <a href="@Url.Content("Sesion")">
+                <a href="#Alertpopup">
                     <i class="bi bi-house-door-fill home"></i>
                 </a>
             </li>
@@ -102,15 +102,25 @@ End Code
                 <td><input id="Checkbox1" type="checkbox" /></td>
 
             </tr>
-           
+
         </table>
         <div id="Finishpopup" class="overlay">
             <div id="popupBody">
-                <h2>LA ENCUESTA A SIDO ENVIADA PARA LA RECOLECCION DE FIRMAS</h2>
+                <h2>LA ENCUESTA HA SIDO ENVIADA PARA LA RECOLECCIÓN DE FIRMAS</h2>
                 <a href=@Url.Action("Sesion")>CONTINUAR</a>
             </div>
         </div>
-        <button type="reset"> <a href="#Finishpopup">finalizar</a></button>
+        <div id="Alertpopup" class="overlay">
+
+            <div id="popupBody">
+                <a id="cerrar" href="#">&times;</a>
+                <h2>Si sales ahora tu progreso en la evaluacion se perdera</h2>
+                <h3>¿Estas seguro de continuar?</h3>
+                <a href=@Url.Action("Sesion")>CONTINUAR</a>
+                <a id="cerrar" href="#">&times;</a>
+            </div>
+        </div>
+        <button type="reset"> <a href="#Finishpopup">Finalizar</a></button>
     </div>
     
 </body>

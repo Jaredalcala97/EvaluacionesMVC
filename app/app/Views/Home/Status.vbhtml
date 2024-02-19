@@ -1,5 +1,5 @@
 ﻿@Code
-    ViewData("Title") = "Consulta"
+    ViewData("Title") = "Status"
 End Code
 
 <!DOCTYPE html>
@@ -8,21 +8,21 @@ End Code
 <head>
     <meta name="viewport" content="width=device-width" />
     <title></title>
-    <link href="~/Content/Consulta.css" rel="stylesheet" />
+    <link href="~/Content/Status.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="~/Content/popup.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/popupF.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <nav>
         <img src="~/images/logo.png" alt="Alternate Text" />
         <ul>
             <li>
-                <a href="@Url.Action("Info", "Home")">
+                <a href="@Url.Action("")">
                     <i class="bi bi-info-circle-fill info"></i>
                 </a>
             </li>
             <li>
-                <a href="@Url.Content("Sesion")">
+                <a href="@Url.Content("SesionAdmin")">
                     <i class="bi bi-house-door-fill home"></i>
                 </a>
             </li>
@@ -35,7 +35,7 @@ End Code
     </nav>
     <div class="titulo">
         <h2>
-            EVALUACIONES YA REALIZADAS
+            STATUS DE LAS EVALUACIONES
         </h2>
     </div>
     <div class="Tabla">
@@ -49,48 +49,39 @@ End Code
                 <th>STATUS</th>
             </tr>
             <tr>
-                <td>Lorenzo Hernandez</td>
+                <td>Juan Perez</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
                 <td>12-06-2024</td>
-                <td>Aprobado</td>
+                <td class="Status1">Pendiente</td>
             </tr>
             <tr>
-                <td>Alfredo Bustillo</td>
+                <td>Juan charrasqueado</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
                 <td>12-06-2024</td>
-                <td>Aprobado</td>
+                <td class="Status3"><a href="@Url.Action("Firmas")">Sin Firmar</a></td>
             </tr>
             <tr>
-                <td>Marco Herrera<td>
+                <td>Frank Sapa</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
                 <td>12-06-2024</td>
-                <td>Aprobado</td>
+                <td class="Status4">Finalizada</td>
             </tr>
             <tr>
-                <td>Luis Suarez</td>
+                <td>Luis Bustillo</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
                 <td>12-06-2024</td>
-                <td>Aprobado</td>
-            </tr>
-            <tr>
-                <td>Leonel Messi</td>
-                <td>Inspector de calidad</td>
-                <td>12-06-2020</td>
-                <td>26/35</td>
-                <td>12-06-2024</td>
-                <td>Aprobado</td>
+                <td class="Status1">Pendiente</td>
             </tr>
         </table>
     </div>
-   
 </body>
 
 </html>

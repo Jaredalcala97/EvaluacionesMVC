@@ -22,5 +22,16 @@
     Function Sesion() As ActionResult
         Return View()
     End Function
-
+    Function Botones() As ActionResult
+        Return View()
+    End Function
+    Function SesionAdmin() As ActionResult
+        Return View()
+    End Function
+    Function Status() As ActionResult
+        Return View()
+    End Function
+    Function Firmas() As ActionResult
+        Return View()
+    End Function
 End Class
