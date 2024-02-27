@@ -8,7 +8,7 @@ End Code
 <head>
     <meta name="viewport" content="width=device-width" />
     <title></title>
-    <link href="~/Content/Consulta.css" rel="stylesheet" />
+    <link href="~/Content/Nuevas.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="~/Content/popupPF.css" rel="stylesheet" type="text/css" />
 </head>
@@ -48,36 +48,36 @@ End Code
 
             </tr>
             <tr>
-                <td><a href="#InfoUser">Carlos Herrera</a></td>
-                <td>Inspector de calidad</td>
+                <td>Carlos Herrera</td>
+                <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
                 <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>
             </tr>
             <tr>
-                <td><a href="#InfoUser">Alfredo Bustillo</a></td>
-                <td>Inspector de calidad</td>
+                <td>Alfredo Bustillo</td>
+                <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
                 <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>
             </tr>
             <tr>
-                <td><a href="#InfoUser">Vicente Herrera</a></td>
-                <td>Inspector de calidad</td>
+                <td>Vicente Herrera</td>
+                <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
                 <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>
             </tr>
             <tr>
-                <td><a href="#InfoUser">Luis Capetillo</a></td>
-                <td>Inspector de calidad</td>
+                <td>Luis Capetillo</td>
+                <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
                 <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>
             </tr>
             <tr>
-                <td><a href="#InfoUser">Fernando Alonzo</a></td>
-                <td>Inspector de calidad</td>
+                <td>Fernando Alonzo</td>
+                <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
                 <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>

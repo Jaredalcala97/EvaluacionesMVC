@@ -150,6 +150,7 @@
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Controllers\DBconnection.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -180,6 +181,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Firmas.css" />
+    <Content Include="Content\alerts.css" />
     <Content Include="Content\popupF.css" />
     <Content Include="Content\Status.css" />
     <Content Include="Content\Consulta.css" />
@@ -195,6 +197,7 @@
     <Content Include="Content\popup.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\pupop.css" />
+    <Content Include="Content\NewUser.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -232,6 +235,7 @@
     <Content Include="Views\Home\Botones.vbhtml" />
     <Content Include="Views\Home\Status.vbhtml" />
     <Content Include="Views\Home\Firmas.vbhtml" />
+    <Content Include="Views\Home\NewUser.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -254,7 +258,6 @@
     </Content>
     <Content Include="Content\Index.css" />
     <Content Include="Views\_ViewStart.vbhtml" />
-    <Content Include="Views\Home\About.vbhtml" />
     <Content Include="Views\Home\Sesion.vbhtml" />
     <Content Include="Views\Home\Index.vbhtml" />
     <Content Include="Views\Shared\Error.vbhtml" />
@@ -265,6 +268,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\DBconection\" />
+    <Folder Include="Views\DBconnection\" />
     <Folder Include="Views\Default\" />
   </ItemGroup>
   <PropertyGroup>

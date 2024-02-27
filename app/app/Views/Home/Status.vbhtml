@@ -45,7 +45,7 @@ End Code
                 <th>PUESTO</th>
                 <th>FECHA DE INGRESO</th>
                 <th>CALIFICACION</th>
-                <th>SIGUIENTE EVALUACION</th>
+                <th>SIGUIENTE EVALUACIÓN</th>
                 <th>STATUS</th>
             </tr>
             <tr>

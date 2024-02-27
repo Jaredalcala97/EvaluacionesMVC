@@ -42,55 +42,62 @@ End Code
     </div>
     <div class="Tabla">
         <table style="width:100%">
-            <tr>
+            <tr class="titulos" style="justify-content:center; align-items:center; margin-left:auto;">
                 <th>NOMBRE</th>
                 <th>PUESTO</th>
                 <th>FECHA DE INGRESO</th>
                 <th>CALIFICACION</th>
+                <th>SIGUIENTE EVALUACION</th>
                 <th>STATUS</th>
-                <th>GENERAR FIRMA</th>
+                <th>FIRMAS FALTANTES</th>
+            </tr>
+            <tr>
+                <td>Javier Hernandez</td>
+                <td>Inspector de calidad</td>
+                <td>12-06-2020</td>
+                <td>26/35</td>
+                <td>12-06-2024</td>
+                <td>Aprobado</td>
+                <td><a href="#popup">Autorizar</a></td>
+            </tr>
+            <tr>
+                <td>Cristiano Ronaldo</td>
+                <td>Inspector de calidad</td>
+                <td>12-06-2020</td>
+                <td>26/35</td>
+                <td>12-06-2024</td>
+                <td>Reprobado</td>
+                <td><a href="#popup">Autorizar</a></td>
             </tr>
             <tr>
                 <td>Alfredo Bustillo</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-06-2024</td>
                 <td>Aprobado</td>
-                <td> <a href="#popup">FIRMAR</a></td>
+                <td><a href="#popup">Autorizar</a></td>
             </tr>
             <tr>
-                <td>luis Lopez</td>
+                <td>Marco Fabian</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
-                <td>Aprobado</td>
-                <td> <a href="#popup">FIRMAR</a></td>
+                <td>12-06-2024</td>
+                <td>Reprobado</td>
+                <td><a href="#popup">Autorizar</a></td>
             </tr>
             <tr>
-                <td>Carlos garcia</td>
+                <td>Marcelo Lopez</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-06-2024</td>
                 <td>Aprobado</td>
-                <td> <a href="#popup">FIRMAR</a></td>
-            </tr>
-            <tr>
-                <td>Jose Vasconcelos</td>
-                <td>Inspector de calidad</td>
-                <td>12-06-2020</td>
-                <td>26/35</td>
-                <td>Aprobado</td>
-                <td> <a href="#popup">FIRMAR</a></td>
-            </tr>
-            <tr>
-                <td>Bernado Solis</td>
-                <td>Inspector de calidad</td>
-                <td>12-06-2020</td>
-                <td>26/35</td>
-                <td>Aprobado</td>
-                <td> <a href="#popup">FIRMAR</a></td>
+                <td><a href="#popup">Autorizar</a></td>
             </tr>
         </table>
+    </div>
         <div id="popup" class="overlay">
             <div id="popupBody">
                 <h2>POR FAVOR INGRESA TU FIRMA</h2>

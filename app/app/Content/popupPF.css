@@ -1,9 +1,9 @@
 ﻿body {
 }
 .NuevoPopup {
-    width: 80%;
+    width: 10%;
     overflow-x: auto;/* Permitir el desplazamiento horizontal si la tabla es más ancha que el contenedor */
-    max-height: 69vh; /* Altura máxima del popup, ajustada al 80% del alto de la ventana */
+    max-height: 5vh; /* Altura máxima del popup, ajustada al 80% del alto de la ventana */
     margin-bottom:20px;
     overflow-y: auto; /* Habilitar desplazamiento vertical si es necesario */
     scroll-snap-align: start;
@@ -23,7 +23,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%; /* Utilizar el 100% del ancho disponible */
+    width: 10%; /* Utilizar el 100% del ancho disponible */
 }
 
 .overlay {
@@ -45,12 +45,11 @@
     }
 
 #popupBody {
-    width: 90%; /* Utilizar el 80% del ancho disponible */
-    height: 90%;
-   
-    max-width: 900px; /* Establecer un ancho máximo */
-    padding: 2%;
-    margin:99px;
+    width: 11%; /* Utilizar el 80% del ancho disponible */
+    height: 8%;
+    max-width: 9px; /* Establecer un ancho máximo */
+    padding: 1%;
+    margin:77px;
     border-radius: 10px;
     box-shadow: 0 0 5px #CCC;
     background: #FFF;
@@ -75,7 +74,8 @@
 
 
 .NuevoPopup {
-    height:100%;
+    height:9%;
+    margin-top:2px;
 }
 
 .NuevoPopup th,
@@ -95,8 +95,8 @@
 /* Ajustar el tamaño de la tabla en dispositivos móviles */
 @media screen and (max-width: 600px) {
     .NuevoPopup {
-        width: 100%; /* Utilizar todo el ancho disponible */
-        height: auto;
+        width: 1%; /* Utilizar todo el ancho disponible */
+        height: 0;
         overflow-x: auto; /* Permitir el desplazamiento horizontal si la tabla es más ancha que el contenedor */
     }
 
@@ -104,4 +104,86 @@
         .NuevoPopup td {
             width: auto; /* Permitir que las columnas se ajusten automáticamente */
         }
+}
+
+
+/* estilos de la tabla */
+
+
+
+.NuevoPopup {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    .NuevoPopup th {
+        background-color: rgba(255,255,255,0.3);
+    }
+
+/* new */
+
+h1 {
+    font-size: 30px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tbl-header {
+    background-color: rgba(255,255,255,0.3);
+}
+
+.tbl-content {
+    height: 300px;
+    overflow-x: auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #000;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+
+/* demo styles */
+
+section {
+    background: #cccccc;
+    background: #cccccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }

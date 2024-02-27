@@ -34,4 +34,9 @@
     Function Firmas() As ActionResult
         Return View()
     End Function
+    Function NewUser() As ActionResult
+        Return View()
+    End Function
+
+
 End Class

@@ -44,8 +44,8 @@ End Code
                 <th>NOMBRE</th>
                 <th>PUESTO</th>
                 <th>FECHA DE INGRESO</th>
-                <th>CALIFICACION</th>
-                <th>SIGUIENTE EVALUACION</th>
+                <th>CALIFICACIÓN</th>
+                <th>SIGUIENTE EVALUACIÓN</th>
                 <th>STATUS</th>
             </tr>
             <tr>
@@ -65,7 +65,7 @@ End Code
                 <td>Aprobado</td>
             </tr>
             <tr>
-                <td>Marco Herrera<td>
+                <td>Marco Herrera</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>

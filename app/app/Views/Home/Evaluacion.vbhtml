@@ -11,6 +11,7 @@ End Code
     <link href="~/Content/Consulta.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="~/Content/popup.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/alerts.css" rel="stylesheet" />
 </head>
 <body>
     <nav>
@@ -104,24 +105,44 @@ End Code
             </tr>
 
         </table>
-        <div id="Finishpopup" class="overlay">
-            <div id="popupBody">
-                <h2>LA ENCUESTA HA SIDO ENVIADA PARA LA RECOLECCIÓN DE FIRMAS</h2>
-                <a href=@Url.Action("Sesion")>CONTINUAR</a>
-            </div>
-        </div>
-        <div id="Alertpopup" class="overlay">
 
-            <div id="popupBody">
-                <a id="cerrar" href="#">&times;</a>
-                <h2>Si sales ahora tu progreso en la evaluacion se perdera</h2>
-                <h3>¿Estas seguro de continuar?</h3>
-                <a href=@Url.Action("Sesion")>CONTINUAR</a>
-                <a id="cerrar" href="#">&times;</a>
-            </div>
-        </div>
-        <button type="reset"> <a href="#Finishpopup">Finalizar</a></button>
     </div>
-    
+    <button type="reset" style="z-index:999"> <a href="#propro">Finalizar</a></button>
+    <div class="propro">
+        <section>
+            <div class="square_box box_three"></div>
+            <div class="square_box box_four"></div>
+            <div class="container mt-5">
+                <div class="row">
+
+                    <div class="col-sm-12">
+                        <div class="alert fade alert-simple alert-success alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show">
+                            <button type="button" class="close font__size-18" data-dismiss="alert">
+                                <span aria-hidden="true">
+                                    <a>
+                                        <i class="fa fa-times greencross"></i>
+                                    </a>
+                                </span>
+                                <span class="sr-only">Close</span>
+                            </button>
+                            <i class="start-icon far fa-check-circle faa-tada animated"></i>
+                            <strong class="font__weight-semibold">Well done!</strong> You successfullyread this important.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="Alertpopup" class="overlay">
+        <div id="popupBody">
+            <a id="cerrar" href="#">&times;</a>
+            <h2>Si sales ahora tu progreso en la evaluacion se perdera</h2>
+            <h3>¿Estas seguro de continuar?</h3>
+            <a href=@Url.Action("Sesion")>CONTINUAR</a>
+            <a id="cerrar" href="#">&times;</a>
+        </div>
+    </div>
+
+
 </body>
 </html>

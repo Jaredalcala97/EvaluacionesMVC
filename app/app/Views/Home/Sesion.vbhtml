@@ -9,11 +9,12 @@ End Code
     <link href="~/Content/Menu.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="~/Content/popup.css" rel="stylesheet" type="text/css" />
+    <link href="~/Scripts/Menu.js" rel="stylesheet" />
     <title>Barra lateral HTML</title>
 </head>
 
 <body>
-   
+
     <nav>
         <img src="~/images/logo.png" alt="Alternate Text" />
         <ul>
@@ -34,6 +35,8 @@ End Code
             </li>
         </ul>
     </nav>
+
+    /* Perfil del usuario */
     <div class="message">
         <h1>BIENVENIDO AL SISTEMA DE EVALUACION DE EMPLEADOS</h1>
     </div>
@@ -67,7 +70,6 @@ End Code
                 <a href=@Url.Action("Sesion")>OK</a>
             </div>
         </div>
-    </div>
-   
+    </div>   
 </body>
 </html>
