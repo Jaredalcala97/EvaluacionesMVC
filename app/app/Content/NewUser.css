@@ -177,9 +177,30 @@ form .form-row .textarea {
 /* se agrega usuario */
 
 .seAgregaUser {
-    display:hidden;
-    padding: 20px;
-    background-color: #f44336; /* Red */
+    display: none; /* Inicialmente oculto */
+    background-color: rgba(0, 255, 33, 0.4);
     color: white;
-    margin-bottom: 15px;
+    position: fixed;
+    top: 90px; /* Ajusta esto según la altura de tu barra de navegación */
+    right: 20px;
+    padding: 10px;
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
+    border-radius: 15px;
+    
+}
+span{
+    font-size: 23px;
+    text-decoration: solid;
+    cursor:pointer;
+}
+
+
+#Salir {
+    float: right; /* Para que esté en el lado derecho */
+}
+
+#Salir {
+    display: flex;
+    justify-content: flex-end; /* Para alinear al final (derecha) */
+    margin-right: 50px;
 }

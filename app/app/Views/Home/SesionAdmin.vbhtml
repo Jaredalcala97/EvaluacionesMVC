@@ -54,7 +54,9 @@ End Code
                 <a href=@Url.Action("Status") class="link2">
                     <i class="ph-empezar-btn">Status de las Evaluaciones</i>
                 </a>
-                
+                <a href=@Url.Action("NewUser") class="link2">
+                    <i class="ph-empezar-btn">Agregar Nuevos Empleados</i>
+                </a>
 
             </div>
 
