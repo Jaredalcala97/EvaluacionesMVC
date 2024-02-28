@@ -1,0 +1,93 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #005187;
+    color: white;
+}
+
+tr:nth-child(2) {
+    background-color: #4D82BC;
+    color: white;
+}
+
+tr:nth-child(3) {
+    background-color: #84B6F4;
+    color: white;
+}
+
+tr:nth-child(4) {
+    background-color: #C4DAFA;
+    color: #005187;
+}
+
+tr:nth-child(5) {
+    background-color: #FCFFFF;
+    color: #005187;
+}
+
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+#formularioSueldo {
+    background-color: #B3C2C8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #005187;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #759AB0;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #759AB0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    button:hover {
+        background-color: #abff0f;
+    }

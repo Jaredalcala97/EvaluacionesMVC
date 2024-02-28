@@ -10,6 +10,7 @@
     Function Index() As ActionResult
         Return View()
     End Function
+
     Function Nuevas() As ActionResult
         Return View()
     End Function
@@ -37,6 +38,13 @@
     Function NewUser() As ActionResult
         Return View()
     End Function
-
+    Function TabPay() As ActionResult
+        Return View()
+    End Function
+    <HttpPost>
+    Function ButtonClicked() As ActionResult
+        ' Aquí puedes poner el código para manejar el evento de clic del botón en el servidor
+        Return RedirectToAction("SesionAdmin")
+    End Function
 
 End Class

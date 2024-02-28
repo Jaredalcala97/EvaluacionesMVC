@@ -49,9 +49,17 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -154,6 +162,10 @@
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\EUser.vb" />
+    <Compile Include="Models\IntranetSecurity.vb" />
+    <Compile Include="Models\ITUser.vb" />
+    <Compile Include="Models\Model1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -198,6 +210,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Content\pupop.css" />
     <Content Include="Content\NewUser.css" />
+    <Content Include="Content\TabPay.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -228,6 +241,7 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <Content Include="Scripts\NewUser.js" />
+    <Content Include="Scripts\TabPay.js" />
     <Content Include="Views\Home\Afirmar.vbhtml" />
     <Content Include="Views\Home\Nuevas.vbhtml" />
     <Content Include="Views\Home\Consulta.vbhtml" />
@@ -237,6 +251,7 @@
     <Content Include="Views\Home\Status.vbhtml" />
     <Content Include="Views\Home\Firmas.vbhtml" />
     <Content Include="Views\Home\NewUser.vbhtml" />
+    <Content Include="Views\Home\TabPay.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -267,7 +282,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\DBconection\" />
     <Folder Include="Views\DBconnection\" />
     <Folder Include="Views\Default\" />

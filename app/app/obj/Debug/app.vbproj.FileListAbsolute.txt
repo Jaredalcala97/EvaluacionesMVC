@@ -398,3 +398,7 @@ C:\Users\K1001799\Desktop\EvaluacionesMVC\app\app\obj\Debug\app.vbproj.CopyCompl
 C:\Users\K1001799\Desktop\EvaluacionesMVC\app\app\obj\Debug\app.dll
 C:\Users\K1001799\Desktop\EvaluacionesMVC\app\app\obj\Debug\app.xml
 C:\Users\K1001799\Desktop\EvaluacionesMVC\app\app\obj\Debug\app.pdb
+C:\Users\K1001799\Desktop\EvaluacionesMVC\app\app\bin\EntityFramework.dll
+C:\Users\K1001799\Desktop\EvaluacionesMVC\app\app\bin\EntityFramework.SqlServer.dll
+C:\Users\K1001799\Desktop\EvaluacionesMVC\app\app\bin\EntityFramework.xml
+C:\Users\K1001799\Desktop\EvaluacionesMVC\app\app\bin\EntityFramework.SqlServer.xml

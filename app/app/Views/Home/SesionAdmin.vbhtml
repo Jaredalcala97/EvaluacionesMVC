@@ -57,7 +57,9 @@ End Code
                 <a href=@Url.Action("NewUser") class="link2">
                     <i class="ph-empezar-btn">Agregar Nuevos Empleados</i>
                 </a>
-
+                <a href=@Url.Action("TabPay") class="link2">
+                    <i class="ph-empezar-btn">Tabulador de sueldos</i>
+                </a>
             </div>
 
         </article>

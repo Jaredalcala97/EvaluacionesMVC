@@ -201,6 +201,6 @@ span{
 
 #Salir {
     display: flex;
-    justify-content: flex-end; /* Para alinear al final (derecha) */
+    justify-content: flex-end; 
     margin-right: 50px;
 }
