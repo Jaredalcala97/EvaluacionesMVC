@@ -24,19 +24,15 @@ End Code
                 </a>
             </li>
             <li>
-                <a href="@Url.Content("Sesion")">
-                    <i class="bi bi-house-door-fill home"></i>
-                </a>
+                <i id="Sesion" class="bi bi-house-door-fill home"></i>
             </li>
             <li>
-                <a href="@Url.Action("Index", "Home")">
-                    <i class="bi bi-box-arrow-right logout"></i>
-                </a>
+                <i id="Index" class="bi bi-box-arrow-right logout"></i>
             </li>
         </ul>
     </nav>
 
-    /* Perfil del usuario */
+    <!-- Perfil del usuario -->
     <div class="message">
         <h1>BIENVENIDO AL SISTEMA DE EVALUACION DE EMPLEADOS</h1>
     </div>
@@ -49,27 +45,18 @@ End Code
             <small class="profile-user-rol">practicante</small>
 
             <div class="profile-links">
-
-                <a href=@Url.Action("Afirmar")
-                   class="link1">
-                    <i class="ph-revisar-btn">Por Firmar</i>
-                </a>
-                <a href=@Url.Action("Nuevas") class="link2">
-                    <i class="ph-empezar-btn">Por Realizar</i>
-                </a>
-                <a href=@Url.Action("Consulta") class="link3">
-                    <i class="ph-finalizadas-btn">Finalizadas</i>
-                </a>
-
+                <a href="#" id="Afirmar" class="link1 ph-revisar-btn">Por Firmar</a>
+                <a href="#" id="NuevaE"  class="link2 ph-empezar-btn">Por Realizar</a>
+                <a href="#" id="Consulta"class="link3 ph-finalizadas-btn">Finalizadas</a>
             </div>
-
         </article>
         <div id="infopopup" class="overlay">
             <div id="popupBody">
                 <h2>esta es la seccion de informacion</h2>
-                <a href=@Url.Action("Sesion")>OK</a>
+                <a href="#" id="Sesion">OK</a>
             </div>
         </div>
-    </div>   
+    </div>
+    <script src="~/Scripts/RouteNav.js"></script>
 </body>
 </html>

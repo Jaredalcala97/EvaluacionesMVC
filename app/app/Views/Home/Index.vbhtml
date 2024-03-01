@@ -13,7 +13,6 @@ End Code
     <link href="~/Content/Index.css" rel="stylesheet" />
     <link href="index.js" rel="stylesheet" />
     <link rel="manifest" href="/manifest.json">
-    <link href="/" rel="stylesheet" />
 </head>
 <body>
     <article class="login">

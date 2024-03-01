@@ -11,7 +11,7 @@
         Return View()
     End Function
 
-    Function Nuevas() As ActionResult
+    Function NuevaE() As ActionResult
         Return View()
     End Function
     Function Consulta() As ActionResult

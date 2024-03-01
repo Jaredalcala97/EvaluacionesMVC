@@ -1,5 +1,5 @@
 ﻿@Code
-    ViewData("Title") = "Nuevas"
+    ViewData("Title") = "NuevaE"
 End Code
 
 <!DOCTYPE html>
@@ -52,35 +52,36 @@ End Code
                 <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
-                <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>
+                <td> <a href="#" id="Evaluacion">INICIAR EVALUACION</a></td>
             </tr>
             <tr>
                 <td>Alfredo Bustillo</td>
                 <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
-                <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>
+                <td> <a href="#" id="Evaluacion">INICIAR EVALUACION</a></td>
+    
             </tr>
             <tr>
                 <td>Vicente Herrera</td>
                 <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
-                <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>
+                <td> <a href="#" id="Evaluacion">INICIAR EVALUACION</a></td>
             </tr>
             <tr>
                 <td>Luis Capetillo</td>
                 <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
-                <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>
+                <td> <a href="#" id="Evaluacion">INICIAR EVALUACION</a></td>
             </tr>
             <tr>
                 <td>Fernando Alonzo</td>
                 <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
                 <td>07-23-2023</td>
-                <td> <a href="@Url.Action("Evaluacion")">INICIAR EVALUACION</a></td>
+                <td> <a href="#" id="Evaluacion">INICIAR EVALUACION</a></td>
             </tr>
         </table>
         <div id="InfoUser" class="overlay">
@@ -216,9 +217,10 @@ End Code
                     
                     
                 </table>
-                <a href=@Url.Action("Nuevas")>OK</a>
+                <a href="#" id="NuevaE">OK</a>
             </div>
         </div>
     </div>   
+    <script src="~/Scripts/RouteNav.js"></script>
 </body>
 </html>

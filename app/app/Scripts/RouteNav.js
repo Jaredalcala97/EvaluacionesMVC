@@ -4,6 +4,7 @@
 
 function init() {
     // Definición de los enlaces para el cambio de páginas dentro de la app
+
     const logoutLink = document.getElementById('Index');
     const loginLink = document.getElementById('Botones');
     // Datos del usuario normal (Supervisor)
@@ -46,6 +47,9 @@ function init() {
                 break;
             case 'Evaluacion':
                 window.location.href = 'Evaluacion';
+                break;
+            case 'Consulta':
+                window.location.href = 'Consulta';
                 break;
             case 'SesionAdmin':
                 window.location.href = 'SesionAdmin';
