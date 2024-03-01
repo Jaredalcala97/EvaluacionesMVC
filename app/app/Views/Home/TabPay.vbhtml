@@ -11,6 +11,7 @@ End Code
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="~/Content/popup.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/TabPay.css" rel="stylesheet" />
+    <link href="~/Scripts/RouteNav.js" rel="stylesheet" />
 </head>
 
 <body>
@@ -23,16 +24,9 @@ End Code
                     <i class="bi bi-info-circle-fill info"></i>
                 </a>
             </li>
-            <li>
-                <a href="@Url.Content("SesionAdmin")">
-                    <i class="bi bi-house-door-fill home"></i>
-                </a>
-            </li>
-            <li>
-                <a href="@Url.Action("Index", "Home")">
-                    <i class="bi bi-box-arrow-right logout"></i>
-                </a>
-            </li>
+
+            <li><a href="#" id="SesionAdmin" class="bi bi-house-door-fill home"></a></li>
+            <li><a href="#" id="Index" class="bi bi-box-arrow-right logout"></a></li>
         </ul>
     </nav>
     <div class="message">
@@ -41,7 +35,12 @@ End Code
             <div id="popupBody">
                 <a id="cerrar" href="#">&times;</a>
                 <h2>esta es la seccion de informacion</h2>
-                <a href=@Url.Action("SesionAdmin")>OK</a>
+
+                <button id="boton2" type="submit" class="btn btn-primary" style="max-width: 200px; display: flex; justify-content:center;
+                            align-items: center">
+                    OK
+                </button>
+
             </div>
         </div>
     </div>
@@ -101,12 +100,15 @@ End Code
 
 
     </form>
-    @Using Html.BeginForm("ButtonClicked", "Home", FormMethod.Post)
-        @<button type="submit" class="btn btn-primary" style="max-width: 200px; display: flex; justify-content:center;
-            align-items: center">Volver al inicio</button>
-    End Using
+
+    <button onclick="ButtonClicked(id)" id="boton1" type="submit" class="btn btn-primary" style="max-width: 200px; display: flex; justify-content:center;
+            align-items: center">
+        Volver al inicio
+    </button>
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="~/Scripts/TabPay.js"></script>
+    <script src="~/Scripts/RouteNav.js"></script>
 
 
 </body>

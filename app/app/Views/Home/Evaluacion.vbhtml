@@ -18,12 +18,12 @@ End Code
         <img src="~/images/logo.png" alt="Alternate Text" />
         <ul>
             <li>
-                <a href="@Url.Action("Info", "Home")">
+                <a href="#Alertpopup">
                     <i class="bi bi-info-circle-fill info"></i>
                 </a>
             </li>
             <li>
-                <a href="#Alertpopup">
+                <a href="@Url.Action("Info", "Home")">
                     <i class="bi bi-house-door-fill home"></i>
                 </a>
             </li>

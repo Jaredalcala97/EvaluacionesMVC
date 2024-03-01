@@ -241,9 +241,10 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <Content Include="Scripts\NewUser.js" />
+    <Content Include="Scripts\RouteNav.js" />
     <Content Include="Scripts\TabPay.js" />
     <Content Include="Views\Home\Afirmar.vbhtml" />
-    <Content Include="Views\Home\Nuevas.vbhtml" />
+    <Content Include="Views\Home\NuevaE.vbhtml" />
     <Content Include="Views\Home\Consulta.vbhtml" />
     <Content Include="Views\Home\Evaluacion.vbhtml" />
     <Content Include="Views\Home\SesionAdmin.vbhtml" />
@@ -285,6 +286,8 @@
     <Folder Include="Views\DBconection\" />
     <Folder Include="Views\DBconnection\" />
     <Folder Include="Views\Default\" />
+    <Folder Include="Views\Home\admin\" />
+    <Folder Include="Views\Home\user\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

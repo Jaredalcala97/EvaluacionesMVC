@@ -1,10 +1,12 @@
-﻿function calcularSueldoTotal(nombre, sueldo) {
-    const descuentoAFP = sueldo * 0.065; // Descuento de AFP (6.5%)
-    const descuentoISSS = sueldo * 0.045; // Descuento de ISSS (4.5%)
+﻿
+
+function calcularSueldoTotal(nombre, sueldo) {
+    const descuentoAFP = sueldo * 0.350; // Descuento de ISR (35%)
+    const descuentoISSS = sueldo * 0.02; // Descuento de ISSS (2%)
     let descuentoRenta = 0; // Descuento de renta
     let tramo = ""; // Tramo de descuento de renta
 
-    const sueldoTotal = sueldo - descuentoAFP - descuentoISSS; // Sueldo total después de los descuentos
+    const sueldoTotal = sueldo - descuentoAFP - descuentoIMSS; // Sueldo total después de los descuentos
 
     if (sueldoTotal <= 472) {
         tramo = "Aplica Tramo I";
@@ -24,15 +26,14 @@
     const mensaje =
         `Nombre: ${nombre} \n
     Sueldo base: $ ${ sueldo} \n 
-    Descuento AFP (6.5%): $ ${ descuentoAFP} \n 
-    Descuento ISSS (4.5%): $ ${ descuentoISSS} \n 
+    Descuento ISR (35%): $ ${ descuentoAFP} \n 
+    Descuento IMSS (2%): $ ${ descuentoISSS} \n 
     tramo: ${ tramo} \n
     Descuento de renta: $ ${ descuentoRenta} \n  
     Sueldo total: $ ${ sueldoNeto} \n `
 
     alert(mensaje);
 }
-
 // Función para  clic en el botón
 function calcularSueldo() {
     const nombre = document.getElementById("nombre").value;

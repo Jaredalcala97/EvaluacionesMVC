@@ -13,6 +13,7 @@ End Code
     <link href="~/Content/Index.css" rel="stylesheet" />
     <link href="index.js" rel="stylesheet" />
     <link rel="manifest" href="/manifest.json">
+    <link href="/" rel="stylesheet" />
 </head>
 <body>
     <article class="login">
@@ -31,14 +32,16 @@ End Code
             </div>
 
             <div class="button">
-                <button type="button" id="btnLogin">
-                    <a href="@Url.Action("Botones")">Login</a>
+                <button type="button" id="Botones">
+                    Login
                 </button>
-               
+
             </div>
 
         </form>
 
     </article>
+    <script src="~/Scripts/RouteNav.js"></script>
+
 </body>
 </html>
