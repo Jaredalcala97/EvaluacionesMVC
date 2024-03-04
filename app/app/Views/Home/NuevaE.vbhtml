@@ -17,20 +17,13 @@ End Code
         <img src="~/images/logo.png" alt="Alternate Text" />
         <ul>
             <li>
-                <a href="@Url.Action("Info", "Home")">
+                <a href="#infopopup">
                     <i class="bi bi-info-circle-fill info"></i>
                 </a>
             </li>
-            <li>
-                <a href="@Url.Content("Sesion")">
-                    <i class="bi bi-house-door-fill home"></i>
-                </a>
-            </li>
-            <li>
-                <a href="@Url.Action("Index", "Home")">
-                    <i class="bi bi-box-arrow-right logout"></i>
-                </a>
-            </li>
+
+            <li><a href="#" id="SesionAdmin" class="bi bi-house-door-fill home"></a></li>
+            <li><a href="#" id="Index" class="bi bi-box-arrow-right logout"></a></li>
         </ul>
     </nav>
     <div class="titulo">

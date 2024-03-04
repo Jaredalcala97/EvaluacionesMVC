@@ -22,15 +22,12 @@ End Code
                     <i class="bi bi-info-circle-fill info"></i>
                 </a>
             </li>
+
             <li>
-                <a href="@Url.Content("SesionAdmin")">
-                    <i class="bi bi-house-door-fill home"></i>
-                </a>
+                <a href="#" id="SesionAdmin" class="bi bi-house-door-fill home"></a>
             </li>
             <li>
-                <a href="@Url.Action("Index", "Home")">
-                    <i class="bi bi-box-arrow-right logout"></i>
-                </a>
+                <a href="#" id="Index" class="bi bi-box-arrow-right logout"></a>
             </li>
         </ul>
     </nav>
@@ -38,7 +35,7 @@ End Code
         <div class="text">
             Registro de Nuevo Empleado
         </div>
-        <form action="#" >
+        <form action="#">
             <div class="form-row">
                 <div class="input-data">
                     <input type="text" required>
@@ -83,13 +80,15 @@ End Code
                         <div class="input-data">
                             <div class="inner"></div>
                             <input type="submit" value="submit" onclick="mostrarElemento()">
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
             <div class="form-row" id="Salir">
-                <a href="@Url.Action("SesionAdmin")">Salir</a>
+                <button type="button" id="SesionAdminButton">
+                    volver al inicio
+                </button>
             </div>
         </form>
     </div>
@@ -99,7 +98,7 @@ End Code
         <h3>Usuario Agregado Exitosamente</h3>
     </div>
     <script src="~/Scripts/NewUser.js"></script>
-
+    <script src="~/Scripts/RouteNav.js"></script>
 
 </body>
 </html>

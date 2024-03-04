@@ -23,14 +23,10 @@ End Code
                 </a>
             </li>
             <li>
-                <a href="@Url.Content("SesionAdmin")">
-                    <i class="bi bi-house-door-fill home"></i>
-                </a>
+                <a href="#" id="SesionAdmin" class="bi bi-house-door-fill home"> </a>
             </li>
             <li>
-                <a href="@Url.Action("Index", "Home")">
-                    <i class="bi bi-box-arrow-right logout"></i>
-                </a>
+                <a href="#" id="Index" class="bi bi-box-arrow-right logout"></a>
             </li>
         </ul>
     </nav>
@@ -47,18 +43,17 @@ End Code
 
             <div class="profile-links">
 
-                <a href=@Url.Action("Firmas")
-                   class="link1">
-                    <i class="ph-revisar-btn">Firmas Faltantes</i>
+                <a href="#" id="Firmas" class="link1">
+                    Firmas Faltantes
                 </a>
-                <a href=@Url.Action("Status") class="link2">
-                    <i class="ph-empezar-btn">Status de las Evaluaciones</i>
+                <a href="#" id="Status" class="link2">
+                    Status de las Evaluaciones
                 </a>
-                <a href=@Url.Action("NewUser") class="link2">
-                    <i class="ph-empezar-btn">Agregar Nuevos Empleados</i>
+                <a href="#" id="NewUser" class="link2">
+                    Agregar Nuevos Empleados
                 </a>
-                <a href=@Url.Action("TabPay") class="link2">
-                    <i class="ph-empezar-btn">Tabulador de sueldos</i>
+                <a href="#" id="TabPay" class="link2">
+                    Tabulador de sueldos
                 </a>
             </div>
 
@@ -67,10 +62,10 @@ End Code
             <div id="popupBody">
                 <a id="cerrar" href="#">&times;</a>
                 <h2>esta es la seccion de informacion</h2>
-                <a href=@Url.Action("SesionAdmin")>OK</a>
+                <a href="#" id="SesionAdminPop">OK</a>
             </div>
         </div>
     </div>
-   
+    <script src="~/Scripts/RouteNav.js"></script>
 </body>
 </html>

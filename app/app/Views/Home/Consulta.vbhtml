@@ -17,20 +17,13 @@ End Code
         <img src="~/images/logo.png" alt="Alternate Text" />
         <ul>
             <li>
-                <a href="@Url.Action("Info", "Home")">
+                <a href="#infopopup">
                     <i class="bi bi-info-circle-fill info"></i>
                 </a>
             </li>
-            <li>
-                <a href="@Url.Content("Sesion")">
-                    <i class="bi bi-house-door-fill home"></i>
-                </a>
-            </li>
-            <li>
-                <a href="@Url.Action("Index", "Home")">
-                    <i class="bi bi-box-arrow-right logout"></i>
-                </a>
-            </li>
+
+            <li><a href="#" id="SesionAdmin" class="bi bi-house-door-fill home"></a></li>
+            <li><a href="#" id="Index" class="bi bi-box-arrow-right logout"></a></li>
         </ul>
     </nav>
     <div class="titulo">
@@ -39,58 +32,73 @@ End Code
         </h2>
     </div>
     <div class="Tabla">
+        <input id="searchbar" onkeyup="search_nombre()" type="text"
+               name="search" placeholder="buscar empleado...">
         <table style="width:100%">
             <tr class="titulos" style="justify-content:center; align-items:center; margin-left:auto;">
                 <th>NOMBRE</th>
                 <th>PUESTO</th>
                 <th>FECHA DE INGRESO</th>
                 <th>CALIFICACIÓN</th>
+                <th>ULTIMA EVALUACION</th>
                 <th>SIGUIENTE EVALUACIÓN</th>
+                <th>VENCIMIENTO DE EVALUACIÓN</th>
                 <th>STATUS</th>
+
             </tr>
             <tr>
-                <td>Lorenzo Hernandez</td>
+                <td class="Empleado">Lorenzo Hernandez</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Aprobado</td>
             </tr>
             <tr>
-                <td>Alfredo Bustillo</td>
+                <td class="Empleado">Alfredo Bustillo</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Aprobado</td>
             </tr>
             <tr>
-                <td>Marco Herrera</td>
+                <td class="Empleado">Marco Herrera</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Aprobado</td>
             </tr>
             <tr>
-                <td>Luis Suarez</td>
+                <td class="Empleado">Luis Suarez</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Aprobado</td>
             </tr>
             <tr>
-                <td>Leonel Messi</td>
+                <td class="Empleado">Leonel Messi</td>
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Aprobado</td>
             </tr>
         </table>
     </div>
-   
+    <script src="~/Scripts/buscador.js"></script>
 </body>
 
 </html>

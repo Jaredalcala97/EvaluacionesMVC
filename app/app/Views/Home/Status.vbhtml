@@ -17,20 +17,13 @@ End Code
         <img src="~/images/logo.png" alt="Alternate Text" />
         <ul>
             <li>
-                <a href="@Url.Action("")">
+                <a href="#infopopup">
                     <i class="bi bi-info-circle-fill info"></i>
                 </a>
             </li>
-            <li>
-                <a href="@Url.Content("SesionAdmin")">
-                    <i class="bi bi-house-door-fill home"></i>
-                </a>
-            </li>
-            <li>
-                <a href="@Url.Action("Index", "Home")">
-                    <i class="bi bi-box-arrow-right logout"></i>
-                </a>
-            </li>
+
+            <li><a href="#" id="SesionAdmin" class="bi bi-house-door-fill home"></a></li>
+            <li><a href="#" id="Index" class="bi bi-box-arrow-right logout"></a></li>
         </ul>
     </nav>
     <div class="titulo">
@@ -62,7 +55,7 @@ End Code
                 <td>12-06-2020</td>
                 <td>26/35</td>
                 <td>12-06-2024</td>
-                <td class="Status3"><a href="@Url.Action("Firmas")">Sin Firmar</a></td>
+                <td class="Status3"><a href="#" id="Firmas">Sin Firmar</a></td>
             </tr>
             <tr>
                 <td>Frank Sapa</td>
@@ -82,6 +75,7 @@ End Code
             </tr>
         </table>
     </div>
+    <script src="~/Scripts/RouteNav.js"></script>
 </body>
 
 </html>

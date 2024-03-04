@@ -17,19 +17,16 @@ End Code
         <img src="~/images/logo.png" alt="Alternate Text" />
         <ul>
             <li>
-                <a href="@Url.Action()">
+                <a href="#infopopup">
                     <i class="bi bi-info-circle-fill info"></i>
                 </a>
             </li>
+
             <li>
-                <a href="@Url.Content("SesionAdmin")">
-                    <i class="bi bi-house-door-fill home"></i>
-                </a>
+                <a href="#" id="SesionAdmin" class="bi bi-house-door-fill home"></a>
             </li>
             <li>
-                <a href="@Url.Action("Index", "Home")">
-                    <i class="bi bi-box-arrow-right logout"></i>
-                </a>
+                <a href="#" id="Index" class="bi bi-box-arrow-right logout"></a>
             </li>
         </ul>
     </nav>
@@ -365,6 +362,7 @@ End Code
             <a href="@Url.Action("SesionAdmin")">volver al menu</a>
         </div>
     </div>
+    <script src="~/Scripts/RouteNav.js"></script>
 </body>
 
 </html>

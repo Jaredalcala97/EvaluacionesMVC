@@ -11,7 +11,6 @@ End Code
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="~/Content/popup.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/TabPay.css" rel="stylesheet" />
-    <link href="~/Scripts/RouteNav.js" rel="stylesheet" />
 </head>
 
 <body>
@@ -26,6 +25,8 @@ End Code
             </li>
 
             <li><a href="#" id="SesionAdmin" class="bi bi-house-door-fill home"></a></li>
+
+
             <li><a href="#" id="Index" class="bi bi-box-arrow-right logout"></a></li>
         </ul>
     </nav>
@@ -36,8 +37,7 @@ End Code
                 <a id="cerrar" href="#">&times;</a>
                 <h2>esta es la seccion de informacion</h2>
 
-                <button id="boton2" type="submit" class="btn btn-primary" style="max-width: 200px; display: flex; justify-content:center;
-                            align-items: center">
+                <button type="button" id="TabPay">
                     OK
                 </button>
 
@@ -97,18 +97,19 @@ End Code
         <label for="sueldo">Sueldo:</label>
         <input type="number" id="sueldo" name="sueldo" required><br><br>
         <button type="submit" onclick="calcularSueldo()">Calcular Sueldo</button>
-
-
     </form>
+        <button type="button" id="SesionAdminButton">
+            volver al inicio
+        </button>
 
-    <button onclick="ButtonClicked(id)" id="boton1" type="submit" class="btn btn-primary" style="max-width: 200px; display: flex; justify-content:center;
-            align-items: center">
-        Volver al inicio
-    </button>
+ 
 
+
+
+    <script src="~/Scripts/RouteNav.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="~/Scripts/TabPay.js"></script>
-    <script src="~/Scripts/RouteNav.js"></script>
+
 
 
 </body>

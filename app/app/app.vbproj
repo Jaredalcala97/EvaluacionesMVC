@@ -234,6 +234,7 @@
     <None Include="packages.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="images\logo.png" />
+    <Content Include="Scripts\buscador.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -286,8 +287,6 @@
     <Folder Include="Views\DBconection\" />
     <Folder Include="Views\DBconnection\" />
     <Folder Include="Views\Default\" />
-    <Folder Include="Views\Home\admin\" />
-    <Folder Include="Views\Home\user\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

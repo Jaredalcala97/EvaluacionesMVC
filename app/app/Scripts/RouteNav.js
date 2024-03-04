@@ -4,9 +4,9 @@
 
 function init() {
     // Definición de los enlaces para el cambio de páginas dentro de la app
-
     const logoutLink = document.getElementById('Index');
     const loginLink = document.getElementById('Botones');
+
     // Datos del usuario normal (Supervisor)
     const userLink = document.getElementById('Sesion');
     const afirmarLink = document.getElementById('Afirmar');
@@ -21,7 +21,12 @@ function init() {
     const tabpaytLink = document.getElementById('TabPay');
     const statustLink = document.getElementById('Status');
 
-    // Función para cambiar el contenido según el enlace seleccionado
+    document.getElementById("SesionAdminButton").addEventListener("click", function () {
+        // Manejar el clic en el botón aquí
+        // Por ejemplo, puedes redirigir a la página de sesión de administrador
+        window.location.href = "SesionAdmin";
+    });
+
     function redirectToPage(event) {
         event.preventDefault(); // Prevenir comportamiento predeterminado del enlace
 
@@ -31,7 +36,7 @@ function init() {
         // Cambiar contenido según el enlace seleccionado
         switch (id) {
             case 'Botones':
-                window.location.href = 'Botones';
+                window.location.href = '/Home/Botones';
                 break;
             case 'Index':
                 window.location.href = 'Index';
@@ -52,6 +57,12 @@ function init() {
                 window.location.href = 'Consulta';
                 break;
             case 'SesionAdmin':
+                window.location.href = 'SesionAdmin';
+                break;
+            case 'SesionAdminPop':
+                window.location.href = 'SesionAdmin';
+                break;
+            case 'SesionAdminButton':
                 window.location.href = 'SesionAdmin';
                 break;
             case 'Firmas':
