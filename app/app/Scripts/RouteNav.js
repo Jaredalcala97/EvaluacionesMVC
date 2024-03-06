@@ -3,6 +3,7 @@
 });
 
 function init() {
+    const HomeLink = document.getElementById('Home');
     // Definición de los enlaces para el cambio de páginas dentro de la app
     const logoutLink = document.getElementById('Index');
     const loginLink = document.getElementById('Botones');
@@ -21,12 +22,7 @@ function init() {
     const tabpaytLink = document.getElementById('TabPay');
     const statustLink = document.getElementById('Status');
 
-    document.getElementById("SesionAdminButton").addEventListener("click", function () {
-        // Manejar el clic en el botón aquí
-        // Por ejemplo, puedes redirigir a la página de sesión de administrador
-        window.location.href = "SesionAdmin";
-    });
-
+   
     function redirectToPage(event) {
         event.preventDefault(); // Prevenir comportamiento predeterminado del enlace
 
@@ -57,6 +53,7 @@ function init() {
                 window.location.href = 'Consulta';
                 break;
             case 'SesionAdmin':
+              
                 window.location.href = 'SesionAdmin';
                 break;
             case 'SesionAdminPop':

@@ -24,10 +24,10 @@ End Code
                 </a>
             </li>
             <li>
-                <i id="Sesion" class="bi bi-house-door-fill home"></i>
+                <i href="#" id="Sesion" class="bi bi-house-door-fill home"></i>
             </li>
             <li>
-                <i id="Index" class="bi bi-box-arrow-right logout"></i>
+                <i href="#" id="Index" class="bi bi-box-arrow-right logout"></i>
             </li>
         </ul>
     </nav>

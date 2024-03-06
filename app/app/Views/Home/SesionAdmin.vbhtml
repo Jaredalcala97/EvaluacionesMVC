@@ -13,7 +13,7 @@ End Code
 </head>
 
 <body>
-   
+
     <nav>
         <img src="~/images/logo.png" alt="Alternate Text" />
         <ul>
@@ -49,10 +49,10 @@ End Code
                 <a href="#" id="Status" class="link2">
                     Status de las Evaluaciones
                 </a>
-                <a href="#" id="NewUser" class="link2">
+                <a href="#" id="NewUser" class="link3">
                     Agregar Nuevos Empleados
                 </a>
-                <a href="#" id="TabPay" class="link2">
+                <a href="#" id="TabPay" class="link4">
                     Tabulador de sueldos
                 </a>
             </div>
@@ -67,5 +67,10 @@ End Code
         </div>
     </div>
     <script src="~/Scripts/RouteNav.js"></script>
+    <footer>
+
+
+    </footer>
 </body>
+
 </html>
