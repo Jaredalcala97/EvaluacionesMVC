@@ -23,7 +23,7 @@ End Code
                 </a>
             </li>
 
-            <li><a href="#" id="SesionAdmin" class="bi bi-house-door-fill home"></a></li>
+            <li><a href="#" id="#Alertpopup" class="bi bi-house-door-fill home"></a></li>
             <li><a href="#" id="Index" class="bi bi-box-arrow-right logout"></a></li>
         </ul>
     </nav>
@@ -44,7 +44,7 @@ End Code
             </tr>
             <tr>
                 <td>Productividad / *Lleva acabo las actividades programadas en tiempo y con las especificaciones requeridas</td>
-                <td><input id="Checkbox1" type="checkbox" /></td>
+                <td><input id="Checkbox1" type="checkbox"  /></td>
                 <td><input id="Checkbox1" type="checkbox" /></td>
                 <td><input id="Checkbox1" type="checkbox" /></td>
                 <td><input id="Checkbox1" type="checkbox" /></td>
@@ -100,42 +100,39 @@ End Code
         </table>
 
     </div>
-    <button type="reset" style="z-index:999"> <a href="#propro">Finalizar</a></button>
-    <div class="propro">
-        <section>
-            <div class="square_box box_three"></div>
-            <div class="square_box box_four"></div>
-            <div class="container mt-5">
-                <div class="row">
-
-                    <div class="col-sm-12">
-                        <div class="alert fade alert-simple alert-success alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show">
-                            <button type="button" class="close font__size-18" data-dismiss="alert">
-                                <span aria-hidden="true">
-                                    <a>
-                                        <i class="fa fa-times greencross"></i>
-                                    </a>
-                                </span>
-                                <span class="sr-only">Close</span>
-                            </button>
-                            <i class="start-icon far fa-check-circle faa-tada animated"></i>
-                            <strong class="font__weight-semibold">Well done!</strong> You successfullyread this important.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
+    <button type="reset" style="z-index:999" id="Alert"> </button>
+    
     <div id="Alertpopup" class="overlay">
         <div id="popupBody">
             <a id="cerrar" href="#">&times;</a>
             <h2>Si sales ahora tu progreso en la evaluacion se perdera</h2>
             <h3>¿Estas seguro de continuar?</h3>
-            <a href=@Url.Action("Sesion")>CONTINUAR</a>
+            <a href="#" id="Sesion">CONTINUAR</a>
             <a id="cerrar" href="#">&times;</a>
         </div>
     </div>
 
+    <script src="~/Scripts/RouteNav.js"></script>
+    <footer>
 
+        <div class="finale">
+            <ul class="footer">
+                <li class="linkT"><a class="l" href="https://twitter.com/Bombardier?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+                <li class="linkC"><a class="l" href="https://codepen.io/julesforrest">Codepen</a></li>
+                <li class="linkE"><a class="l" href="mailto:julesforrest@gmail.com">Email</a></li>
+                <li class="linkD"><a class="l" href="https://dribbble.com/julesforrest">Dribbble</a></li>
+                <li class="linkG"><a class="l" href="https://github.com/julesforrest">Github</a></li>
+                <li class="Mano">
+                    <p>👋</p>
+                </li>
+
+            </ul>
+            <div class="centered">
+                <p>Derechos reservados Bombardier mexico</p>
+                <p>autor Jared Helaman Alcalá Alvarado</p>
+            </div>
+        </div>
+        
+    </footer>
 </body>
 </html>

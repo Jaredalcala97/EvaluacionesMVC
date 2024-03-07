@@ -24,7 +24,7 @@ End Code
                 </a>
             </li>
 
-            <li><a href="#" id="SesionAdmin" class="bi bi-house-door-fill home"></a></li>
+            <li><a href="#" id="Sesion" class="bi bi-house-door-fill home"></a></li>
             <li><a href="#" id="Index" class="bi bi-box-arrow-right logout"></a></li>
         </ul>
     </nav>
@@ -91,24 +91,24 @@ End Code
             </tr>
         </table>
     </div>
-        <div id="popup" class="overlay">
-            <div id="popupBody">
-                <h2>POR FAVOR INGRESA TU FIRMA</h2>
-                <a id="cerrar" href="#">&times;</a>
-                <div class="popupContent">
-                    <input type="text" name="name" value="" />
+    <div id="popup" class="overlay">
+        <div id="popupBody">
+            <h2>POR FAVOR INGRESA TU FIRMA</h2>
+            <a id="cerrar" href="#">&times;</a>
+            <div class="popupContent">
+                <input type="text" name="name" value="" />
 
-                </div>
-                <a href="#pupop">enviar</a>
             </div>
-        </div>
-        <div id="pupop" class="overlay">
-            <div id="popupBody">
-                <h2>FIRMAS ENVIADAS CON EXITO</h2>
-                <a href=@Url.Action("Sesion")>regresar al inicio</a>
-            </div>
+            <a href="#pupop">enviar</a>
         </div>
     </div>
-    
+    <div id="pupop" class="overlay">
+        <div id="popupBody">
+            <h2>FIRMAS ENVIADAS CON EXITO</h2>
+            <a href="#" id="Afirmar">Continuar</a>
+        </div>
+    </div>
+    <script src="~/Scripts/RouteNav.js"></script>
 </body>
+
 </html>

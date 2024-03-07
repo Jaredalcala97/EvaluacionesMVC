@@ -22,7 +22,7 @@ End Code
                 </a>
             </li>
 
-            <li><a href="#" id="SesionAdmin" class="bi bi-house-door-fill home"></a></li>
+            <li><a href="#" id="Sesion" class="bi bi-house-door-fill home"></a></li>
             <li><a href="#" id="Index" class="bi bi-box-arrow-right logout"></a></li>
         </ul>
     </nav>
@@ -99,6 +99,7 @@ End Code
         </table>
     </div>
     <script src="~/Scripts/buscador.js"></script>
+    <script src="~/Scripts/RouteNav.js"></script>
 </body>
 
 </html>
