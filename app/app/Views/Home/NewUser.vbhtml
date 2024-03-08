@@ -1,5 +1,5 @@
 ﻿@Code
-    ViewData("Title") = "SesionAdmin"
+    ViewData("Title") = "NewUser"
 End Code
 
 <!DOCTYPE html>
@@ -9,13 +9,17 @@ End Code
     <link href="~/Content/Menu.css" rel="stylesheet" />
     <link href="~/Content/NewUser.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>Barra lateral HTML</title>
+    <title>Bombardier</title>
 </head>
 
 <body>
 
     <nav>
-        <img src="~/images/logo.png" alt="Alternate Text" />
+        <a href="@Url.Action("SesionAdmin")">
+
+            <img src="~/images/logo.png" alt="Alternate Text" />
+
+        </a>
         <ul>
             <li>
                 <a href="#infopopup">

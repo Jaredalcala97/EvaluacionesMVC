@@ -7,7 +7,7 @@ End Code
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title></title>
+    <title>Bombardier</title>
     <link href="~/Content/Consulta.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="~/Content/popup.css" rel="stylesheet" type="text/css" />
@@ -15,8 +15,11 @@ End Code
 </head>
 <body>
     <nav>
-        <img src="~/images/logo.png" alt="Alternate Text" />
-        <ul>
+        <a href="@Url.Action("Sesion")">
+
+            <img src="~/images/logo.png" alt="Alternate Text" />
+
+        </a>        <ul>
             <li>
                 <a href="#infopopup">
                     <i class="bi bi-info-circle-fill info"></i>
@@ -44,7 +47,7 @@ End Code
             </tr>
             <tr>
                 <td>Productividad / *Lleva acabo las actividades programadas en tiempo y con las especificaciones requeridas</td>
-                <td><input id="Checkbox1" type="checkbox"  /></td>
+                <td><input id="Checkbox1" type="checkbox" /></td>
                 <td><input id="Checkbox1" type="checkbox" /></td>
                 <td><input id="Checkbox1" type="checkbox" /></td>
                 <td><input id="Checkbox1" type="checkbox" /></td>
@@ -101,7 +104,7 @@ End Code
 
     </div>
     <button type="reset" style="z-index:999" id="Alert"> </button>
-    
+
     <div id="Alertpopup" class="overlay">
         <div id="popupBody">
             <a id="cerrar" href="#">&times;</a>
@@ -112,27 +115,18 @@ End Code
         </div>
     </div>
 
-    <script src="~/Scripts/RouteNav.js"></script>
+
     <footer>
 
         <div class="finale">
-            <ul class="footer">
-                <li class="linkT"><a class="l" href="https://twitter.com/Bombardier?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
-                <li class="linkC"><a class="l" href="https://codepen.io/julesforrest">Codepen</a></li>
-                <li class="linkE"><a class="l" href="mailto:julesforrest@gmail.com">Email</a></li>
-                <li class="linkD"><a class="l" href="https://dribbble.com/julesforrest">Dribbble</a></li>
-                <li class="linkG"><a class="l" href="https://github.com/julesforrest">Github</a></li>
-                <li class="Mano">
-                    <p>👋</p>
-                </li>
-
-            </ul>
             <div class="centered">
+                <h2>Servicio de Evaluación de Empleados</h2>
                 <p>Derechos reservados Bombardier mexico</p>
                 <p>autor Jared Helaman Alcalá Alvarado</p>
             </div>
         </div>
-        
+
     </footer>
+    <script src="~/Scripts/RouteNav.js"></script>
 </body>
 </html>

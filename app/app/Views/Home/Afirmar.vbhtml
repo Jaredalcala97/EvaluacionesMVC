@@ -7,7 +7,7 @@ End Code
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title></title>
+    <title>Bombardier</title>
     <link href="~/Content/Afirmar.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="~/Content/popup.css" rel="stylesheet" type="text/css" />
@@ -16,16 +16,25 @@ End Code
 
 <body>
     <nav>
-        <img src="~/images/logo.png" alt="Alternate Text" />
+
+        <a href="@Url.Action("Sesion")">
+
+            <img src="~/images/logo.png" alt="Alternate Text" />
+
+        </a>
         <ul>
+           
+            <li>
+                <a class="Session" href="#" >Sesion Activa de Jared Alcalá</a>
+            </li>
             <li>
                 <a href="#infopopup">
                     <i class="bi bi-info-circle-fill info"></i>
                 </a>
             </li>
 
-            <li><a href="#" id="Sesion" class="bi bi-house-door-fill home"></a></li>
-            <li><a href="#" id="Index" class="bi bi-box-arrow-right logout"></a></li>
+            <li><a href="#"  id="Sesion" class="bi bi-house-door-fill home"></a></li>
+            <li><a href="#"  id="Index" class="bi bi-box-arrow-right logout "></a></li>
         </ul>
     </nav>
     <div class="titulo">
@@ -108,6 +117,33 @@ End Code
             <a href="#" id="Afirmar">Continuar</a>
         </div>
     </div>
+    <footer>
+
+        <div class="finale">
+            <div class="centered">
+                <h2>Servicio de Evaluación de Empleados</h2>
+                <p>Derechos reservados Bombardier mexico</p>
+                <p>autor Jared Helaman Alcalá Alvarado</p>
+            </div>
+        </div>
+
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".Session");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "Index";
+                });
+            });
+        });
+    </script>
     <script src="~/Scripts/RouteNav.js"></script>
 </body>
 

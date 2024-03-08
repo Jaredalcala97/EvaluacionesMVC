@@ -9,13 +9,18 @@ End Code
     <link href="~/Content/Menu.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="~/Content/popup.css" rel="stylesheet" type="text/css" />
-    <title>Barra lateral HTML</title>
+    <link href="~/Content/MenuAdmin.css" rel="stylesheet" />
+    <title>Bombardier</title>
 </head>
 
 <body>
 
     <nav>
-        <img src="~/images/logo.png" alt="Alternate Text" />
+        <a href="@Url.Action("SesionAdmin")">
+
+            <img src="~/images/logo.png" alt="Alternate Text" />
+
+        </a>
         <ul>
             <li>
                 <a href="#infopopup">
@@ -66,11 +71,19 @@ End Code
             </div>
         </div>
     </div>
-    <script src="~/Scripts/RouteNav.js"></script>
+
     <footer>
 
+        <div class="finale">
+            <div class="centered">
+                <h2>Servicio de Evaluación de Empleados</h2>
+                <p>Derechos reservados Bombardier mexico</p>
+                <p>autor Jared Helaman Alcalá Alvarado</p>
+            </div>
+        </div>
 
     </footer>
+    <script src="~/Scripts/RouteNav.js"></script>
 </body>
 
 </html>

@@ -10,13 +10,17 @@ End Code
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="~/Content/popup.css" rel="stylesheet" type="text/css" />
     <link href="~/Scripts/Menu.js" rel="stylesheet" />
-    <title>Barra lateral HTML</title>
+    <title>Bombardier</title>
 </head>
 
 <body>
 
     <nav>
-        <img src="~/images/logo.png" alt="Alternate Text" />
+        <a href="@Url.Action("Sesion")">
+
+            <img src="~/images/logo.png" alt="Alternate Text" />
+
+        </a>
         <ul>
             <li>
                 <a href="#infopopup">
@@ -24,17 +28,17 @@ End Code
                 </a>
             </li>
             <li>
-                <i href="#" id="Sesion" class="bi bi-house-door-fill home"></i>
+                <a href="#" id="Sesion" class="bi bi-house-door-fill home"></a>
             </li>
             <li>
-                <i href="#" id="Index" class="bi bi-box-arrow-right logout"></i>
+                <a href="#" id="Index" class="bi bi-box-arrow-right logout"></a>
             </li>
         </ul>
     </nav>
 
     <!-- Perfil del usuario -->
     <div class="message">
-        <h1>BIENVENIDO AL SISTEMA DE EVALUACION DE EMPLEADOS</h1>
+        <h1>BIENVENIDO AL SISTEMA DE EVALUACIÓN DE EMPLEADOS</h1>
     </div>
     <div class="profile-body">
         <article class="profile">
@@ -42,21 +46,32 @@ End Code
                 <img src="https://media.licdn.com/dms/image/D5603AQFf70ZxP3K7iw/profile-displayphoto-shrink_800_800/0/1696526156806?e=1712188800&v=beta&t=w3lZeExFKMsihW9XXZhP43L94aRfXpsbVJxRTLT7Bfo" alt="imagen" />
             </div>
             <h2 class="Profile-username">Jared Alcalá</h2>
-            <small class="profile-user-rol">practicante</small>
+            <small class="profile-user-rol">Practicánte</small>
 
             <div class="profile-links">
                 <a href="#" id="Afirmar" class="link1 ph-revisar-btn">Por Firmar</a>
-                <a href="#" id="NuevaE"  class="link2 ph-empezar-btn">Por Realizar</a>
-                <a href="#" id="Consulta"class="link3 ph-finalizadas-btn">Finalizadas</a>
+                <a href="#" id="NuevaE" class="link2 ph-empezar-btn">Por Realizar</a>
+                <a href="#" id="Consulta" class="link3 ph-finalizadas-btn">Finalizadas</a>
             </div>
         </article>
         <div id="infopopup" class="overlay">
             <div id="popupBody">
-                <h2>esta es la seccion de informacion</h2>
+                <h2>esta es la seccion de información</h2>
                 <a href="#" id="Sesion">OK</a>
             </div>
         </div>
     </div>
+    <footer>
+
+        <div class="finale">
+            <div class="centered">
+                <h2>Servicio de Evaluación de Empleados</h2>
+                <p>Derechos reservados Bombardier mexico</p>
+                <p>autor Jared Helaman Alcalá Alvarado</p>
+            </div>
+        </div>
+
+    </footer>
     <script src="~/Scripts/RouteNav.js"></script>
 </body>
 </html>

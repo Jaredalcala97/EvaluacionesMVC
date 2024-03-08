@@ -9,7 +9,7 @@ End Code
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evaluaciones</title>
+    <title>Bombardier</title>
     <link href="~/Content/Index.css" rel="stylesheet" />
     <link href="index.js" rel="stylesheet" />
     <link rel="manifest" href="/manifest.json">

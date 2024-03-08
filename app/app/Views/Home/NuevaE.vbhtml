@@ -7,14 +7,18 @@ End Code
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title></title>
+    <title>Bombardier</title>
     <link href="~/Content/Nuevas.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="~/Content/popupPF.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <nav>
-        <img src="~/images/logo.png" alt="Alternate Text" />
+        <a href="@Url.Action("Sesion")">
+
+            <img src="~/images/logo.png" alt="Alternate Text" />
+
+        </a>
         <ul>
             <li>
                 <a href="#infopopup">
@@ -22,7 +26,7 @@ End Code
                 </a>
             </li>
 
-            <li><a href="#" id="SesionAdmin" class="bi bi-house-door-fill home"></a></li>
+            <li><a href="#" id="Sesion" class="bi bi-house-door-fill home"></a></li>
             <li><a href="#" id="Index" class="bi bi-box-arrow-right logout"></a></li>
         </ul>
     </nav>
@@ -213,7 +217,18 @@ End Code
                 <a href="#" id="NuevaE">OK</a>
             </div>
         </div>
-    </div>   
+    </div>  
+    <footer>
+
+        <div class="finale">
+            <div class="centered">
+                <h2>Servicio de Evaluación de Empleados</h2>
+                <p>Derechos reservados Bombardier mexico</p>
+                <p>autor Jared Helaman Alcalá Alvarado</p>
+            </div>
+        </div>
+
+    </footer>
     <script src="~/Scripts/RouteNav.js"></script>
 </body>
 </html>

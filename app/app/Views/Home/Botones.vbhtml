@@ -8,7 +8,7 @@ End Code
     <meta charset="utf-8" />
     <link href="~/Content/MenuAdmin.css" rel="stylesheet" />
 
-    <title></title>
+    <title>Bombardier</title>
 </head>
 
 <body>
