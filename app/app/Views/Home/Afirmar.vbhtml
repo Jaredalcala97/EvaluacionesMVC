@@ -17,7 +17,7 @@ End Code
 <body>
     <nav>
 
-        <a href="@Url.Action("Sesion")">
+        <a href="#" class="session">
 
             <img src="~/images/logo.png" alt="Alternate Text" />
 
@@ -25,7 +25,7 @@ End Code
         <ul>
            
             <li>
-                <a class="Session" href="#" >Sesion Activa de Jared Alcalá</a>
+                <a class="start" href="#" >Sesion Activa de Jared Alcalá</a>
             </li>
             <li>
                 <a href="#infopopup">
@@ -131,7 +131,7 @@ End Code
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             // Selecciona todos los enlaces con la clase 'sesion-link'
-            var links = document.querySelectorAll(".Session");
+            var links = document.querySelectorAll(".start");
 
             // Añade un manejador de eventos a cada enlace
             links.forEach(function (link) {
@@ -140,6 +140,22 @@ End Code
 
                     // Redirige a la página 'Index'
                     window.location.href = "Index";
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".session");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "Sesion";
                 });
             });
         });

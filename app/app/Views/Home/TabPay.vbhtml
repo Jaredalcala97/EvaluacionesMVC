@@ -109,7 +109,17 @@ End Code
  
 
 
+     <footer>
 
+        <div class="finale">
+            <div class="centered">
+                <h2>Servicio de Evaluación de Empleados</h2>
+                <p>Derechos reservados Bombardier mexico</p>
+                <p>autor Jared Helaman Alcalá Alvarado</p>
+            </div>
+        </div>
+
+    </footer>
     <script src="~/Scripts/RouteNav.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="~/Scripts/TabPay.js"></script>

@@ -192,6 +192,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Evaluacion.css" />
     <Content Include="Content\Firmas.css" />
     <Content Include="Content\alerts.css" />
     <Content Include="Content\popupF.css" />

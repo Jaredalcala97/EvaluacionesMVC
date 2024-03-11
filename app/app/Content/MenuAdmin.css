@@ -13,6 +13,9 @@
     
    
 }
+nav {
+    position: absolute;
+}
 
 .titulo_sesion {
     margin-top: 300px;

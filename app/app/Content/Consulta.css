@@ -55,8 +55,8 @@ nav ul {
 
 
 .Tabla {
+    margin-top: 100px;
     background: #cccccc;
-    background: rgba(124,172,0,0.23);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -68,7 +68,7 @@ nav ul {
 .titulo h2 {
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 10px;
     justify-content: center;
     display: flex;

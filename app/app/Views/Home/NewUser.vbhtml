@@ -97,10 +97,24 @@ End Code
         </form>
     </div>
 
+
+
     <div class="seAgregaUser" id="elementoParaMostrar">
         <span class="closebtn" onclick="this.parentElement.style.display='none';">X</span>
         <h3>Usuario Agregado Exitosamente</h3>
     </div>
+
+    <footer>
+
+        <div class="finale">
+            <div class="centered">
+                <h2>Servicio de Evaluación de Empleados</h2>
+                <p>Derechos reservados Bombardier mexico</p>
+                <p>autor Jared Helaman Alcalá Alvarado</p>
+            </div>
+        </div>
+
+    </footer>
     <script src="~/Scripts/NewUser.js"></script>
     <script src="~/Scripts/RouteNav.js"></script>
 

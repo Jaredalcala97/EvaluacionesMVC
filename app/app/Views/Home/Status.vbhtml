@@ -79,6 +79,17 @@ End Code
             </tr>
         </table>
     </div>
+    <footer>
+
+        <div class="finale">
+            <div class="centered">
+                <h2>Servicio de Evaluación de Empleados</h2>
+                <p>Derechos reservados Bombardier mexico</p>
+                <p>autor Jared Helaman Alcalá Alvarado</p>
+            </div>
+        </div>
+
+    </footer>
     <script src="~/Scripts/RouteNav.js"></script>
 </body>
 

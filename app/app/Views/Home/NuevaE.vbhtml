@@ -42,6 +42,7 @@ End Code
                 <th>PUESTO</th>
                 <th>FECHA DE INGRESO</th>
                 <th>ULTIMA EVALUACION</th>
+                <th></th>
 
             </tr>
             <tr>
@@ -90,7 +91,7 @@ End Code
                     </h3>
                     <h4>Seleccione la opción que corresponda en relación al dominio de la actividad del puesto</h4>
                 </div>
-                <table class="NuevoPopup" style="width:100%; position:initial; background-color:cornflowerblue; overflow-y:scroll; overflow-x: scroll;">
+                <table class="NuevoPopup" style="width:100%; position:initial; background-color:gray; overflow-y:scroll; overflow-x: scroll;">
                     <tr class="titulo1">
                         <th></th>
                         <th>N1</th>
@@ -109,7 +110,7 @@ End Code
                         <th>36 months / 3 year</th>
                     </tr>
                     <tr class="campos">
-                        <th>TECNICO DE LA INTEGRIDAD DE LA PLANEACIÓN MAESTRA</th>
+                        <th class="columna1">TECNICO DE LA INTEGRIDAD DE LA PLANEACIÓN MAESTRA</th>
                         <th>
                             "Realizar nesteos
                             Generar e imprimir ordenes de producción
@@ -147,7 +148,7 @@ End Code
                         </th>
                     </tr>
                     <tr class="calificable1">
-                        <th>
+                        <th class="columna1">
                             Ausentismo
                         </th>
                         <th>
@@ -169,7 +170,7 @@ End Code
                     </tr>
 
                     <tr class="calificable2">
-                        <th>
+                        <th class="columna1">
                             Disciplina
                         </th>
                         <th>
@@ -190,7 +191,7 @@ End Code
                         </th>
                     </tr>
                     <tr class="calificable3">
-                        <th>
+                        <th class="columna1">
                             SCRAP
 
                         </th>
@@ -214,7 +215,7 @@ End Code
                     
                     
                 </table>
-                <a href="#" id="NuevaE">OK</a>
+                <a href="#" id="NuevaE" class="botonok">OK</a>
             </div>
         </div>
     </div>  

@@ -53,7 +53,7 @@ nav ul {
             margin-left: 10px;
         }
 
-        nav ul li  .Session{
+        nav ul li  .start{
             font-size:  medium;
             color: #000;
             text-decoration:none;
@@ -64,7 +64,7 @@ nav ul {
 .titulo h2 {
     align-items: center;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 150px;
     margin-bottom: 10px;
     justify-content: center;
     display: flex;
@@ -74,19 +74,19 @@ nav ul {
 
 
 .Tabla {
-    background: #cccccc;
-    background: #cccccc;
+    background:rgba(0, 0, 0, 0.19);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
     .Tabla th {
-        background-color: rgba(255,255,255,0.3);
+        background: rgba(255,255,255,0.5);
     }
 
 
 /* new */
 
 h1 {
+    margin-top:50px;
     font-size: 30px;
     color: #000;
     text-transform: uppercase;
@@ -96,6 +96,7 @@ h1 {
 }
 
 table {
+    margin-top:100px;
     width: 100%;
     table-layout: fixed;
 }
@@ -159,17 +160,18 @@ section {
 
 
 .footer {
+  
     display: inline-grid;
     grid-auto-flow: row;
     grid-gap: 24px;
     justify-items: center;
-    margin: auto;
     list-style: none;
 }
 
 /* below is just for demo styling */
 
 .finale {
+    margin-top: 500px;
     margin-top: 70px;
     display: flex;
     height: 10vh;

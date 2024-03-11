@@ -171,6 +171,9 @@ form .form-row .textarea {
     }
 }
 
+nav {
+    position: absolute;
+}
 
 
 
