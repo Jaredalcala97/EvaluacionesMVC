@@ -14,12 +14,16 @@ End Code
 </head>
 <body>
     <nav>
-        <a href="@Url.Action("SesionAdmin")">
+        <a href="#" class="session">
 
             <img src="~/images/logo.png" alt="Alternate Text" />
 
         </a>
         <ul>
+
+            <li>
+                <a class="start" href="#">Sesion Activa de Jared Alcalá</a>
+            </li>
             <li>
                 <a href="#infopopup">
                     <i class="bi bi-info-circle-fill info"></i>
@@ -45,8 +49,10 @@ End Code
                 <th>NOMBRE</th>
                 <th>PUESTO</th>
                 <th>FECHA DE INGRESO</th>
-                <th>CALIFICACION</th>
-                <th>SIGUIENTE EVALUACION</th>
+                <th>CALIFICACIÓN</th>
+                <th>ULTIMA EVALUACIÓN</th>
+                <th>SIGUIENTE EVALUACIÓN</th>
+                <th>VENCIMIENTO DE EVALUACIÓN</th>
                 <th>STATUS</th>
                 <th>FIRMAS FALTANTES</th>
             </tr>
@@ -55,7 +61,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Aprobado</td>
                 <td><a href="#popupF">Revisar</a></td>
             </tr>
@@ -64,7 +72,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Reprobado</td>
                 <td><a href="#popupF">Revisar</a></td>
             </tr>
@@ -73,7 +83,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Aprobado</td>
                 <td><a href="#popupF">Revisar</a></td>
             </tr>
@@ -82,7 +94,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Reprobado</td>
                 <td><a href="#popupF">Revisar</a></td>
             </tr>
@@ -91,7 +105,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Aprobado</td>
                 <td><a href="#popupF">Revisar</a></td>
             </tr>
@@ -103,16 +119,20 @@ End Code
             <h2>FIRMAS PENDIENTES</h2>
             <section>
                 <!--for demo wrap-->
-                <h1>Fixed Table header</h1>
+                <h1>Lista de evaluaciones pendientes de firmar</h1>
                 <div class="tbl-header">
                     <table cellpadding="0" cellspacing="0" border="0">
                         <thead>
                             <tr>
-                                <th>Code</th>
-                                <th>Company</th>
-                                <th>Price</th>
-                                <th>Change</th>
-                                <th>Change %</th>
+                                <th>NOMBRE</th>
+                                <th>PUESTO</th>
+                                <th>FECHA DE INGRESO</th>
+                                <th>CALIFICACIÓN</th>
+                                <th>ULTIMA EVALUACIÓN</th>
+                                <th>SIGUIENTE EVALUACIÓN</th>
+                                <th>VENCIMIENTO DE EVALUACIÓN</th>
+                                <th>STATUS</th>
+                            
                             </tr>
                         </thead>
                     </table>
@@ -120,250 +140,76 @@ End Code
                 <div class="tbl-content">
                     <table cellpadding="0" cellspacing="0" border="0">
                         <tbody>
-                            <tr>
-                                <td>AAC</td>
-                                <td>AUSTRALIAN COMPANY </td>
-                                <td>$1.38</td>
-                                <td>+2.01</td>
-                                <td>-0.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAD</td>
-                                <td>AUSENCO</td>
-                                <td>$2.38</td>
-                                <td>-0.01</td>
-                                <td>-1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAX</td>
-                                <td>ADELAIDE</td>
-                                <td>$3.22</td>
-                                <td>+0.01</td>
-                                <td>+1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>XXD</td>
-                                <td>ADITYA BIRLA</td>
-                                <td>$1.02</td>
-                                <td>-1.01</td>
-                                <td>+2.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAC</td>
-                                <td>AUSTRALIAN COMPANY </td>
-                                <td>$1.38</td>
-                                <td>+2.01</td>
-                                <td>-0.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAD</td>
-                                <td>AUSENCO</td>
-                                <td>$2.38</td>
-                                <td>-0.01</td>
-                                <td>-1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAX</td>
-                                <td>ADELAIDE</td>
-                                <td>$3.22</td>
-                                <td>+0.01</td>
-                                <td>+1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>XXD</td>
-                                <td>ADITYA BIRLA</td>
-                                <td>$1.02</td>
-                                <td>-1.01</td>
-                                <td>+2.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAC</td>
-                                <td>AUSTRALIAN COMPANY </td>
-                                <td>$1.38</td>
-                                <td>+2.01</td>
-                                <td>-0.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAD</td>
-                                <td>AUSENCO</td>
-                                <td>$2.38</td>
-                                <td>-0.01</td>
-                                <td>-1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAX</td>
-                                <td>ADELAIDE</td>
-                                <td>$3.22</td>
-                                <td>+0.01</td>
-                                <td>+1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>XXD</td>
-                                <td>ADITYA BIRLA</td>
-                                <td>$1.02</td>
-                                <td>-1.01</td>
-                                <td>+2.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAC</td>
-                                <td>AUSTRALIAN COMPANY </td>
-                                <td>$1.38</td>
-                                <td>+2.01</td>
-                                <td>-0.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAD</td>
-                                <td>AUSENCO</td>
-                                <td>$2.38</td>
-                                <td>-0.01</td>
-                                <td>-1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAX</td>
-                                <td>ADELAIDE</td>
-                                <td>$3.22</td>
-                                <td>+0.01</td>
-                                <td>+1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>XXD</td>
-                                <td>ADITYA BIRLA</td>
-                                <td>$1.02</td>
-                                <td>-1.01</td>
-                                <td>+2.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAC</td>
-                                <td>AUSTRALIAN COMPANY </td>
-                                <td>$1.38</td>
-                                <td>+2.01</td>
-                                <td>-0.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAD</td>
-                                <td>AUSENCO</td>
-                                <td>$2.38</td>
-                                <td>-0.01</td>
-                                <td>-1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAX</td>
-                                <td>ADELAIDE</td>
-                                <td>$3.22</td>
-                                <td>+0.01</td>
-                                <td>+1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>XXD</td>
-                                <td>ADITYA BIRLA</td>
-                                <td>$1.02</td>
-                                <td>-1.01</td>
-                                <td>+2.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAC</td>
-                                <td>AUSTRALIAN COMPANY </td>
-                                <td>$1.38</td>
-                                <td>+2.01</td>
-                                <td>-0.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAD</td>
-                                <td>AUSENCO</td>
-                                <td>$2.38</td>
-                                <td>-0.01</td>
-                                <td>-1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAX</td>
-                                <td>ADELAIDE</td>
-                                <td>$3.22</td>
-                                <td>+0.01</td>
-                                <td>+1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>XXD</td>
-                                <td>ADITYA BIRLA</td>
-                                <td>$1.02</td>
-                                <td>-1.01</td>
-                                <td>+2.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAC</td>
-                                <td>AUSTRALIAN COMPANY </td>
-                                <td>$1.38</td>
-                                <td>+2.01</td>
-                                <td>-0.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAD</td>
-                                <td>AUSENCO</td>
-                                <td>$2.38</td>
-                                <td>-0.01</td>
-                                <td>-1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAX</td>
-                                <td>ADELAIDE</td>
-                                <td>$3.22</td>
-                                <td>+0.01</td>
-                                <td>+1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>XXD</td>
-                                <td>ADITYA BIRLA</td>
-                                <td>$1.02</td>
-                                <td>-1.01</td>
-                                <td>+2.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAC</td>
-                                <td>AUSTRALIAN COMPANY </td>
-                                <td>$1.38</td>
-                                <td>+2.01</td>
-                                <td>-0.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAD</td>
-                                <td>AUSENCO</td>
-                                <td>$2.38</td>
-                                <td>-0.01</td>
-                                <td>-1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>AAX</td>
-                                <td>ADELAIDE</td>
-                                <td>$3.22</td>
-                                <td>+0.01</td>
-                                <td>+1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>XXD</td>
-                                <td>ADITYA BIRLA</td>
-                                <td>$1.02</td>
-                                <td>-1.01</td>
-                                <td>+2.36%</td>
-                            </tr>
+                        <tr class="head">
+                            <td>Javier Hernandez</td>
+                            <td>Inspector de calidad</td>
+                            <td>12-06-2020</td>
+                            <td>26/35</td>
+                            <td>12-12-2023</td>
+                            <td>12-06-2024</td>
+                            <td>09-05-2024</td>
+                            <td>Aprobado</td>
+                        </tr>
+                        <tr class="body">
+                            <td>Cristiano Ronaldo</td>
+                            <td>Inspector de calidad</td>
+                            <td>12-06-2020</td>
+                            <td>26/35</td>
+                            <td>12-12-2023</td>
+                            <td>12-06-2024</td>
+                            <td>09-05-2024</td>
+                            <td>Reprobado</td>
+                        </tr>
+                        <tr class="body">
+                            <td>Alfredo Bustillo</td>
+                            <td>Inspector de calidad</td>
+                            <td>12-06-2020</td>
+                            <td>26/35</td>
+                            <td>12-12-2023</td>
+                            <td>12-06-2024</td>
+                            <td>09-05-2024</td>
+                            <td>Aprobado</td>
+                        </tr>
+                        <tr class="body">
+                            <td>Marco Fabian</td>
+                            <td>Inspector de calidad</td>
+                            <td>12-06-2020</td>
+                            <td>26/35</td>
+                            <td>12-12-2023</td>
+                            <td>12-06-2024</td>
+                            <td>09-05-2024</td>
+                            <td>Reprobado</td>
+                        </tr>
+                        <tr class="body">
+                            <td>Marcelo Lopez</td>
+                            <td>Inspector de calidad</td>
+                            <td>12-06-2020</td>
+                            <td>26/35</td>
+                            <td>12-12-2023</td>
+                            <td>12-06-2024</td>
+                            <td>09-05-2024</td>
+                            <td>Aprobado</td>
+                        </tr>
                         </tbody>
                     </table>
                 </div>
             </section>
 
-            <a href="#popup2">Enviar Recordatorios</a>
+            <a href="#popup2" id="botonx">Enviar Recordatorios</a>
         </div>
     </div>
     <div id="popup2" class="overlay">
         <div id="popupBody">
             <a id="cerrar" href="#">&times;</a>
             <h2>se enviara(n) 1 recordatorio(s)</h2>
-            <a href="#popup3">Enviar Recordatorios</a>
+            <a href="#popup3" id="botonx">Enviar Recordatorios</a>
         </div>
     </div>
     <div id="popup3" class="overlay">
         <div id="popupBody">
             <a id="cerrar" href="#">&times;</a>
             <h2>Envio de recordatorio(s) exitoso</h2>
-            <a href="@Url.Action("SesionAdmin")">volver al menu</a>
+            <a href="#" id="botonx" class="okay">volver al menu</a>
         </div>
     </div>
     <footer>
@@ -377,6 +223,55 @@ End Code
         </div>
 
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".start");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "Index";
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".session");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "SesionAdmin";
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".okay");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "Firmas";
+                });
+            });
+        });
+    </script>
     <script src="~/Scripts/RouteNav.js"></script>
 </body>
 

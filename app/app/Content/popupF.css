@@ -1,50 +1,68 @@
-﻿body {
+﻿/* Estilos Generales para el Fondo y el Overlay */
+body {
+    font-family: Arial, sans-serif;
 }
 
-#InfoUser {
-    scrollbar-arrow-color: blue;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: auto;
-} 
 .overlay {
     position: fixed;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscurecido */
+    z-index: 999;
     visibility: hidden;
     opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
 }
+
     .overlay:target {
         visibility: visible;
         opacity: 1;
     }
 
+/* Estilo Ciberpunk para el Popup */
 #popupBody {
-    width: 80%;
-    padding: 2%;
-    border-radius: 10px;
-    box-shadow: 0 0 5px #CCC;
-    background: #FFF;
-    position: relative;
-    margin: 25% auto;
-    transition: all 5s ease-in-out;
-   
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 20px;
+    background: #fff; /* Fondo oscuro para estilo ciberpunk */
+    border: 2px solid #000; /* Borde neón */
+    box-shadow: 0 0 15px #fff; /* Sombra neón */
+    z-index: 1000;
+    border-radius: 8px; /* Bordes redondeados */
 }
 
-#cerrar {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #F00;
-    transition: all 200ms;
+    #popupBody h2, #popupBody h1 {
+        color: #000; /* Texto en negro */
+       
+    }
+
+    #popupBody #botonx {
+        display: inline-block; /* Permite aplicar padding y otros estilos de bloque */
+        margin-top: 20px; /* Espaciado superior para separarlo de otros elementos */
+        padding: 10px 20px; /* Espaciado interno para hacerlo parecer un botón */
+        color: #000; /* Color del texto en azul neón */
+        background-color: #fff; /* Fondo oscuro para contrastar */
+        border-radius: 5px; /* Bordes redondeados para el efecto de botón */
+        text-decoration: none; /* Remueve el subrayado del texto */
+        font-weight: bold; /* Texto en negrita para mayor presencia */
+        transition: background-color 0.3s, color 0.3s; /* Transición suave para efecto al pasar el mouse */
+    }
+
+        #popupBody #botonx:hover, #popupBody #botonx:focus {
+            background-color: #2ae; /* Cambio de fondo al pasar el mouse o enfocar */
+            color: #000; /* Cambio de color de texto para contraste */
+            cursor: pointer; /* Cambia el cursor a una mano para indicar clic */
+        }
+
+
+/* Estilo para las tablas dentro del popup */
+.tbl-header, .tbl-content {
+    color: #fff;
 }
+
+/* Ajustes adicionales según necesidades */

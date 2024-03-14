@@ -20,14 +20,13 @@ body {
 
 nav ul li .start {
     font-size: medium;
-    color: #000;
     text-decoration: none;
 }
 
 .container {
     max-width: 800px;
     width: 800px;
-    color:#fff;
+  
     padding: 25px 40px 10px 40px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
@@ -70,6 +69,7 @@ form .form-row .textarea {
     border: none;
     font-size: 17px;
     border-bottom: 2px solid rgba(0,0,0, 0.12);
+    color: #fff;
 }
 
     .input-data input:focus ~ label, .textarea textarea:focus ~ label,
@@ -96,6 +96,7 @@ form .form-row .textarea {
     width: 100%;
     bottom: 40px;
     background: #fff;
+
 }
 
 .input-data .underline {
@@ -103,6 +104,7 @@ form .form-row .textarea {
     bottom: 0;
     height: 2px;
     width: 100%;
+
 }
 
     .input-data .underline:before {
@@ -114,6 +116,7 @@ form .form-row .textarea {
         transform: scaleX(0);
         transform-origin: center;
         transition: transform 0.3s ease;
+
     }
 
 .input-data input:focus ~ .underline:before,
@@ -127,6 +130,7 @@ form .form-row .textarea {
     overflow: hidden;
     height: 45px !important;
     width: 25% !important;
+
 }
 
     .submit-btn .input-data .inner {
@@ -136,10 +140,12 @@ form .form-row .textarea {
         left: -100%;
         background: -webkit-linear-gradient(right, #0D1B2A, #1B263B, #415A77, #778DA9);
         transition: all 0.4s;
+
     }
 
     .submit-btn .input-data:hover .inner {
         left: 0;
+         color: #fff;
     }
 
     .submit-btn .input-data input {
