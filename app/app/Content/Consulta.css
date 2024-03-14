@@ -52,6 +52,12 @@ nav ul {
             margin-left: 10px;
         }
 
+        nav ul li .start {
+            font-size: medium;
+            color: #000;
+            text-decoration: none;
+        }
+
 
 
 .Tabla {

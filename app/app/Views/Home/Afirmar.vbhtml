@@ -48,8 +48,10 @@ End Code
                 <th>NOMBRE</th>
                 <th>PUESTO</th>
                 <th>FECHA DE INGRESO</th>
-                <th>CALIFICACION</th>
-                <th>SIGUIENTE EVALUACION</th>
+                <th>CALIFICACIÓN</th>
+                <th>ULTIMA EVALUACIÓN</th>
+                <th>SIGUIENTE EVALUACIÓN</th>
+                <th>VENCIMIENTO DE EVALUACIÓN</th>
                 <th>STATUS</th>
                 <th>FIRMAS FALTANTES</th>
             </tr>
@@ -58,7 +60,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Aprobado</td>
                 <td><a href="#popup">Autorizar</a></td>
             </tr>
@@ -67,7 +71,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Reprobado</td>
                 <td><a href="#popup">Autorizar</a></td>
             </tr>
@@ -76,7 +82,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Aprobado</td>
                 <td><a href="#popup">Autorizar</a></td>
             </tr>
@@ -85,7 +93,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Reprobado</td>
                 <td><a href="#popup">Autorizar</a></td>
             </tr>
@@ -94,7 +104,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td>Aprobado</td>
                 <td><a href="#popup">Autorizar</a></td>
             </tr>

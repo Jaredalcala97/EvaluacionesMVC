@@ -14,12 +14,16 @@ End Code
 </head>
 <body>
     <nav>
-        <a href="@Url.Action("Sesion")">
+        <a href="#" class="session">
 
             <img src="~/images/logo.png" alt="Alternate Text" />
 
         </a>
         <ul>
+
+            <li>
+                <a class="start" href="#">Sesion Activa de Jared Alcalá</a>
+            </li>
             <li>
                 <a href="#infopopup">
                     <i class="bi bi-info-circle-fill info"></i>
@@ -41,7 +45,9 @@ End Code
                 <th>NOMBRE</th>
                 <th>PUESTO</th>
                 <th>FECHA DE INGRESO</th>
-                <th>ULTIMA EVALUACION</th>
+                <th>ULTIMA EVALUACIÓN</th>
+                <th>SIGUIENTE EVALUACIÓN</th>
+                <th>VENCIMIENTO DE EVALUACIÓN</th>
                 <th></th>
 
             </tr>
@@ -49,37 +55,47 @@ End Code
                 <td>Carlos Herrera</td>
                 <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
-                <td>07-23-2023</td>
-                <td> <a href="#" id="Evaluacion">INICIAR EVALUACION</a></td>
+                <td>12-12-2023</td>
+                <td>12-06-2024</td>
+                <td>09-05-2024</td>
+                <td> <a href="#" id="Evaluacion">INICIAR EVALUACIÓN</a></td>
             </tr>
             <tr>
                 <td>Alfredo Bustillo</td>
                 <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
-                <td>07-23-2023</td>
-                <td> <a href="#" id="Evaluacion">INICIAR EVALUACION</a></td>
-    
+                <td>12-12-2023</td>
+                <td>12-06-2024</td>
+                <td>09-05-2024</td>
+                <td> <a href="#" id="Evaluacion">INICIAR EVALUACIÓN</a></td>
+
             </tr>
             <tr>
                 <td>Vicente Herrera</td>
                 <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
-                <td>07-23-2023</td>
-                <td> <a href="#" id="Evaluacion">INICIAR EVALUACION</a></td>
+                <td>12-12-2023</td>
+                <td>12-06-2024</td>
+                <td>09-05-2024</td>
+                <td> <a href="#" id="Evaluacion">INICIAR EVALUACIÓN</a></td>
             </tr>
             <tr>
                 <td>Luis Capetillo</td>
                 <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
-                <td>07-23-2023</td>
-                <td> <a href="#" id="Evaluacion">INICIAR EVALUACION</a></td>
+                <td>12-12-2023</td>
+                <td>12-06-2024</td>
+                <td>09-05-2024</td>
+                <td> <a href="#" id="Evaluacion">INICIAR EVALUACIÓN</a></td>
             </tr>
             <tr>
                 <td>Fernando Alonzo</td>
                 <td><a href="#InfoUser">Inspector de calidad</a></td>
                 <td>12-06-2020</td>
-                <td>07-23-2023</td>
-                <td> <a href="#" id="Evaluacion">INICIAR EVALUACION</a></td>
+                <td>12-12-2023</td>
+                <td>12-06-2024</td>
+                <td>09-05-2024</td>
+                <td> <a href="#" id="Evaluacion">INICIAR EVALUACIÓN</a></td>
             </tr>
         </table>
         <div id="InfoUser" class="overlay">
@@ -121,7 +137,7 @@ End Code
 
                         </th>
                         <th>
-                            "Realizar nesteos 
+                            "Realizar nesteos
                             Generar e imprimir ordenes de producción
                             Generar split (s)
                             Conciliar scrap
@@ -212,13 +228,13 @@ End Code
                             0
                         </th>
                     </tr>
-                    
-                    
+
+
                 </table>
                 <a href="#" id="NuevaE" class="botonok">OK</a>
             </div>
         </div>
-    </div>  
+    </div>
     <footer>
 
         <div class="finale">
@@ -230,6 +246,38 @@ End Code
         </div>
 
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".start");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "Index";
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".session");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "Sesion";
+                });
+            });
+        });
+    </script>
     <script src="~/Scripts/RouteNav.js"></script>
 </body>
 </html>

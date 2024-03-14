@@ -14,12 +14,16 @@ End Code
 </head>
 <body>
     <nav>
-        <a href="@Url.Action("Sesion")">
+        <a href="#" class="session">
 
             <img src="~/images/logo.png" alt="Alternate Text" />
 
         </a>
         <ul>
+
+            <li>
+                <a class="start" href="#">Sesion Activa de Jared Alcalá</a>
+            </li>
             <li>
                 <a href="#infopopup">
                     <i class="bi bi-info-circle-fill info"></i>
@@ -44,7 +48,7 @@ End Code
                 <th>PUESTO</th>
                 <th>FECHA DE INGRESO</th>
                 <th>CALIFICACIÓN</th>
-                <th>ULTIMA EVALUACION</th>
+                <th>ULTIMA EVALUACIÓN</th>
                 <th>SIGUIENTE EVALUACIÓN</th>
                 <th>VENCIMIENTO DE EVALUACIÓN</th>
                 <th>STATUS</th>
@@ -113,6 +117,38 @@ End Code
         </div>
 
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".start");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "Index";
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".session");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "Sesion";
+                });
+            });
+        });
+    </script>
     <script src="~/Scripts/buscador.js"></script>
     <script src="~/Scripts/RouteNav.js"></script>
 </body>

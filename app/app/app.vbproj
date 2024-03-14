@@ -255,6 +255,7 @@
     <Content Include="Views\Home\Firmas.vbhtml" />
     <Content Include="Views\Home\NewUser.vbhtml" />
     <Content Include="Views\Home\TabPay.vbhtml" />
+    <Content Include="Views\Home\DeleteUser.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
