@@ -14,12 +14,16 @@ End Code
 </head>
 <body>
     <nav>
-        <a href="@Url.Action("SesionAdmin")">
+        <a href="#" class="session">
 
             <img src="~/images/logo.png" alt="Alternate Text" />
 
         </a>
         <ul>
+
+            <li>
+                <a class="start" href="#">Sesion Activa de Jared Alcalá</a>
+            </li>
             <li>
                 <a href="#infopopup">
                     <i class="bi bi-info-circle-fill info"></i>
@@ -41,8 +45,10 @@ End Code
                 <th>NOMBRE</th>
                 <th>PUESTO</th>
                 <th>FECHA DE INGRESO</th>
-                <th>CALIFICACION</th>
+                <th>CALIFICACIÓN</th>
+                <th>ULTIMA EVALUACIÓN</th>
                 <th>SIGUIENTE EVALUACIÓN</th>
+                <th>VENCIMIENTO DE EVALUACIÓN</th>
                 <th>STATUS</th>
             </tr>
             <tr>
@@ -50,7 +56,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td class="Status1">Pendiente</td>
             </tr>
             <tr>
@@ -58,7 +66,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td class="Status3"><a href="#" id="Firmas">Sin Firmar</a></td>
             </tr>
             <tr>
@@ -66,7 +76,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td class="Status4">Finalizada</td>
             </tr>
             <tr>
@@ -74,7 +86,9 @@ End Code
                 <td>Inspector de calidad</td>
                 <td>12-06-2020</td>
                 <td>26/35</td>
+                <td>12-12-2023</td>
                 <td>12-06-2024</td>
+                <td>09-05-2024</td>
                 <td class="Status1">Pendiente</td>
             </tr>
         </table>
@@ -90,6 +104,40 @@ End Code
         </div>
 
     </footer>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".start");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "Index";
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".session");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "SesionAdmin";
+                });
+            });
+        });
+    </script>
     <script src="~/Scripts/RouteNav.js"></script>
 </body>
 

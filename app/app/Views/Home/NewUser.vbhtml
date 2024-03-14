@@ -15,12 +15,16 @@ End Code
 <body>
 
     <nav>
-        <a href="@Url.Action("SesionAdmin")">
+        <a href="#" class="session">
 
             <img src="~/images/logo.png" alt="Alternate Text" />
 
         </a>
         <ul>
+
+            <li>
+                <a class="start" href="#">Sesion Activa de Jared Alcalá</a>
+            </li>
             <li>
                 <a href="#infopopup">
                     <i class="bi bi-info-circle-fill info"></i>
@@ -104,19 +108,56 @@ End Code
         <h3>Usuario Agregado Exitosamente</h3>
     </div>
 
-    <footer>
+    
 
-        <div class="finale">
-            <div class="centered">
-                <h2>Servicio de Evaluación de Empleados</h2>
-                <p>Derechos reservados Bombardier mexico</p>
-                <p>autor Jared Helaman Alcalá Alvarado</p>
-            </div>
-        </div>
 
-    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".start");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "Index";
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los enlaces con la clase 'sesion-link'
+            var links = document.querySelectorAll(".session");
+
+            // Añade un manejador de eventos a cada enlace
+            links.forEach(function (link) {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Previene la navegación predeterminada del enlace
+
+                    // Redirige a la página 'Index'
+                    window.location.href = "SesionAdmin";
+                });
+            });
+        });
+    </script>
     <script src="~/Scripts/NewUser.js"></script>
     <script src="~/Scripts/RouteNav.js"></script>
+    <div>
+        <footer>
 
+            <div class="finale">
+                <div class="centered">
+                    <h2>Servicio de Evaluación de Empleados</h2>
+                    <p>Derechos reservados Bombardier mexico</p>
+                    <p>autor Jared Helaman Alcalá Alvarado</p>
+                </div>
+            </div>
+
+        </footer>
+    </div>
 </body>
 </html>
