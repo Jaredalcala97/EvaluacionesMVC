@@ -9,6 +9,8 @@ End Code
     <link href="~/Content/Menu.css" rel="stylesheet" />
     <link href="~/Content/NewUser.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Bombardier</title>
 </head>
 
@@ -39,78 +41,37 @@ End Code
             </li>
         </ul>
     </nav>
-    <div class="container">
-        <div class="text">
-            Registro de Nuevo Empleado
-        </div>
-        <form action="#">
-            <div class="form-row">
-                <div class="input-data">
-                    <input type="text" required>
-                    <div class="underline"></div>
-                    <label for="">First Name</label>
-                </div>
-                <div class="input-data">
-                    <input type="text" required>
-                    <div class="underline"></div>
-                    <label for="">Last Name</label>
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="input-data">
-                    <input type="text" required>
-                    <div class="underline"></div>
-                    <label for="">Knumber</label>
-                </div>
+    <h1>Formulario de nuevo usuario</h1>
+    <div>
+        <form action="action_page.php">
+            <div class="container">
+                <h1>Register</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
 
-                <div class="input-data">
-                    <input type="text" required>
-                    <div class="underline"></div>
-                    <label for="">Rol</label>
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="input-data">
-                    <input type="text" required>
-                    <div class="underline"></div>
-                    <label for="">Departamento</label>
-                </div>
-                <div class="input-data">
-                    <input type="text" required>
-                    <div class="underline"></div>
-                    <label for="">Supervisor</label>
-                </div>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
-            </div>
-            <div class="form-row">
-                <div class="input-data textarea">
-                    <div class="form-row submit-btn">
-                        <div class="input-data">
-                            <div class="inner"></div>
-                            <input type="submit" value="submit" onclick="mostrarElemento()">
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
 
-                        </div>
-                    </div>
-                </div>
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                <hr>
+
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                <button type="submit" class="registerbtn">Register</button>
             </div>
-            <div class="form-row" id="Salir">
-                <button type="button" id="SesionAdminButton">
-                    volver al inicio
-                </button>
+
+            <div class="container signin">
+                <p>Already have an account? <a href="#">Sign in</a>.</p>
             </div>
         </form>
     </div>
-
-
-
-    <div class="seAgregaUser" id="elementoParaMostrar">
+    <div class="alert alert-success seAgregaUser" id="elementoParaMostrar">
         <span class="closebtn" onclick="this.parentElement.style.display='none';">X</span>
         <h3>Usuario Agregado Exitosamente</h3>
     </div>
-
-    
-
-
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
